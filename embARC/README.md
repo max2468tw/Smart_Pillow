@@ -7,7 +7,7 @@ It is designed to provide a unified platform for ARCv2 users by defining consist
 embARC provides a solid starting foundation for embedded developers, simplifying development and improving time to market through software reuse.
 ## embARC Architecture
 The general embARC Open Software Platform Architecture is shown in the block diagram below.
-![embARC Open Software Platform Architecture](doc/documents/pic/embARC.jpg)
+![embARC Open Software Platform Architecture](embARC/doc/documents/pic/embARC.jpg)
 ### ARC Hardware Abstraction Layer
 This layer provides standard interfaces and definitions for ARCv2 processors.
 ### Device Hardware Abstraction Layer
