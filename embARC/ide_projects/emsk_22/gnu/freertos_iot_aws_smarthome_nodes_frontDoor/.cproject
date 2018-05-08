@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1033161366">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1033161366" moduleId="org.eclipse.cdt.core.settings" name="arcem11d">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" description="ARC EM11D Configuration" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1033161366" name="arcem11d" parent="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug">
+					<folderInfo id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1033161366." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug.1518186599" name="GNU Toolchain for ARC EM" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level.2042344771" name="Debug level" superClass="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug.589546950" isAbstract="false" name="All Platform" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug"/>
+							<builder buildPath="${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/example/freertos/iot/aws/smarthome_nodes/frontDoor}" cleanBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem11d TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_aws_smarthome_nodes_frontDoor clean" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug.1840405665" incrementalBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem11d TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_aws_smarthome_nodes_frontDoor all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="ARC GNU Make builder for Linux hosts" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug.420501660" name="ARC ELF32 GCC Assembler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths.1349156369" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/example/freertos/iot/aws/smarthome_nodes/frontDoor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/shadow}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTClient-C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTPacket/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def.311605714" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x42"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem11d"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_BANKED_REGS=32"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_NUM_BANKS=2"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=20000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_AWS"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_MBEDTLS"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=1048676"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=1048576"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+									<listOptionValue builtIn="false" value="IOT_INFO"/>
+									<listOptionValue builtIn="false" value="IOT_WARN"/>
+									<listOptionValue builtIn="false" value="IOT_ERROR"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&quot;mbedtls_config.h&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input.1466071146" superClass="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug.448240261" name="ARC ELF32 GCC C Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths.79614265" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/example/freertos/iot/aws/smarthome_nodes/frontDoor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/shadow}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTClient-C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTPacket/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def.1347816001" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x42"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem11d"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_BANKED_REGS=32"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_NUM_BANKS=2"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=20000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_AWS"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_MBEDTLS"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=1048676"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=1048576"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+									<listOptionValue builtIn="false" value="IOT_INFO"/>
+									<listOptionValue builtIn="false" value="IOT_WARN"/>
+									<listOptionValue builtIn="false" value="IOT_ERROR"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&quot;mbedtls_config.h&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level.1856088319" name="Optimization level" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input.1213319901" superClass="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug.1443248443" name="ARC ELF32 GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug.1864971900" name="ARC ELF32 GCC C Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug.116146273" name="ARC ELF32 GCC C++ Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base.668982224" name="ARC ELF32 GCC Archiver" superClass="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug.2095919826" name="ARC ELF32 GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug.207593566" name="ARC ELF32 GNU Create Listing" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base.615400078" name="ARC ELF32 GNU Print Size" superClass="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1414118444">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1414118444" moduleId="org.eclipse.cdt.core.settings" name="arcem7d">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" description="ARC EM7D Configuration" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1414118444" name="arcem7d" parent="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug">
+					<folderInfo id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1414118444." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug.1518186599" name="GNU Toolchain for ARC EM" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level.2042344771" name="Debug level" superClass="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug.589546950" isAbstract="false" name="All Platform" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug"/>
+							<builder buildPath="${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/example/freertos/iot/aws/smarthome_nodes/frontDoor}" cleanBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem7d TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_aws_smarthome_nodes_frontDoor clean" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug.1840405665" incrementalBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem7d TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_aws_smarthome_nodes_frontDoor all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="ARC GNU Make builder for Linux hosts" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug.420501660" name="ARC ELF32 GCC Assembler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths.1349156369" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/example/freertos/iot/aws/smarthome_nodes/frontDoor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/shadow}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTClient-C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTPacket/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def.311605714" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x42"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem7d"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_AWS"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_MBEDTLS"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=1048676"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=1048576"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+									<listOptionValue builtIn="false" value="IOT_INFO"/>
+									<listOptionValue builtIn="false" value="IOT_WARN"/>
+									<listOptionValue builtIn="false" value="IOT_ERROR"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&quot;mbedtls_config.h&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input.1466071146" superClass="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug.448240261" name="ARC ELF32 GCC C Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths.79614265" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/example/freertos/iot/aws/smarthome_nodes/frontDoor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/protocol/mqtt/aws_iot_embedded_client_wrapper/platform_embARC/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/shadow}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_iot_src/utils}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTClient-C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/aws/aws_mqtt_embedded_client_lib/MQTTPacket/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_aws_smarthome_nodes_frontDoor/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def.1347816001" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x42"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem7d"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_AWS"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_MBEDTLS"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=1048676"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=1048576"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+									<listOptionValue builtIn="false" value="IOT_INFO"/>
+									<listOptionValue builtIn="false" value="IOT_WARN"/>
+									<listOptionValue builtIn="false" value="IOT_ERROR"/>
+									<listOptionValue builtIn="false" value="MBEDTLS_CONFIG_FILE=&quot;mbedtls_config.h&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level.1856088319" name="Optimization level" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input.1213319901" superClass="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug.1443248443" name="ARC ELF32 GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug.1864971900" name="ARC ELF32 GCC C Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug.116146273" name="ARC ELF32 GCC C++ Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base.668982224" name="ARC ELF32 GCC Archiver" superClass="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug.2095919826" name="ARC ELF32 GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug.207593566" name="ARC ELF32 GNU Create Listing" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base.615400078" name="ARC ELF32 GNU Print Size" superClass="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="freertos_iot_aws_smarthome_nodes_frontDoor.org.eclipse.cdt.cross.arc.gnu.linux.elf.1234567890" name="ARC Cross ELF32 Target Application" projectType="org.eclipse.cdt.cross.arc.gnu.linux.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="arcem7d">
+			<resource resourceType="PROJECT" workspacePath="/freertos_iot_aws_smarthome_nodes_frontDoor"/>
+		</configuration>
+		<configuration configurationName="arcem11d">
+			<resource resourceType="PROJECT" workspacePath="/freertos_iot_aws_smarthome_nodes_frontDoor"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

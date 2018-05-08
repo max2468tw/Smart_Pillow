@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config_list>
+  <tool_config version="1.0.29" />
+  <configuration name="BCRs" filename="bcr_contents.txt">
+    <string><![CDATA[
+	0x4	0x130041	IDENTITY
+	0x18	0x80000000	AUX_DCCM
+	0x60	0x2		BCR_VER
+	0x68	0x10		VECBASE_AC_BUILD
+	0x6e	0x2		RF_BUILD
+	0x72	0x215104	D_CACHE_BUILD
+	0x74	0x703		DCCM_BUILD
+	0x75	0x10304		TIMER_BUILD
+	0x76	0x405		AP_BUILD
+	0x77	0x225104	I_CACHE_BUILD
+	0x78	0x704		ICCM_BUILD
+	0x7a	0x420		DSP_BUILD
+	0x7b	0x22a06		MULTIPLY_BUILD
+	0x7c	0x3		SWAP_BUILD
+	0x7d	0x3		NORM_BUILD
+	0x7e	0x2		MINMAX_BUILD
+	0x7f	0x303		BARREL_BUILD
+	0xc1	0x12047402	ISA_CONFIG
+	0xc8	0x1000f02	FPU_BUILD
+	0xf3	0x10b0d01	IRQ_BUILD
+	0xf5	0x8080102	PCT_BUILD
+	0xf6	0x6f0004	CC_BUILD
+	0xff	0x2003		SMART_BUILD
+	0x208	0x0		AUX_ICCM
+	0x209	0x80000000	AUX_DCCM
+	0x20a	0xf0000000	DMP_PERIPHERAL
+]]></string>
+  </configuration>
+  <configuration name="mw_compiler" filename="compile.arg">
+    <string><![CDATA[
+	-arcv2em
+	-core1
+	-HL
+	-Xcode_density
+	-Xdiv_rem=radix2
+	-Xswap
+	-Xnorm
+	-Xmpy16
+	-Xmpy
+	-Xmpyd
+	-Xshift_assist
+	-Xbarrel_shifter
+	-Xdsp_complex
+	-Xfpus_div
+	-Xfpu_mac
+	-Xfpuda
+	-Xfpus_mpy_slow
+	-Xfpus_div_slow
+	-Xtimer0
+	-Xtimer1
+]]></string>
+  </configuration>
+  <configuration name="mw_debugger" filename="iss_config.arg">
+    <string><![CDATA[
+	-arcv2em 
+	-core1 
+	-rgf_num_banks=1 
+	-Xcode_density 
+	-Xdiv_rem=radix2 
+	-Xswap 
+	-Xnorm 
+	-Xmpy16 
+	-Xmpy 
+	-Xmpyd 
+	-Xshift_assist 
+	-Xbarrel_shifter 
+	-Xdsp_complex 
+	-Xfpus_div 
+	-Xfpu_mac 
+	-Xfpuda 
+	-Xfpus_mpy_slow 
+	-Xfpus_div_slow 
+	-Xtimer0 
+	-Xtimer0_level=1 
+	-Xtimer1 
+	-Xtimer1_level=0 
+	-action_points=2 
+	-dmp_peripheral 
+	-interrupts=13 
+	-interrupt_priorities=2 
+	-ext_interrupts=11 
+	-interrupt_base=0x0 
+	-dcache=16384,32,2,a 
+	-icache=16384,32,2,a 
+	-dccm_size=0x8000 
+	-dccm_base=0x8000_0000 
+	-iccm_size=0x8000 
+	-iccm_base=0x0000_0000 
+]]></string>
+  </configuration>
+  <configuration name="nSIM" filename="nsim.props">
+    <string><![CDATA[
+	nsim_isa_av2em11=1
+	arcver=0x41
+	nsim_isa_rgf_num_banks=1
+	nsim_isa_rgf_num_regs=32
+	nsim_isa_rgf_num_wr_ports=1
+	nsim_isa_big_endian=0
+	nsim_isa_lpc_size=32
+	nsim_isa_pc_size=32
+	nsim_isa_addr_size=32
+	nsim_isa_code_density_option=2
+	nsim_isa_div_rem_option=1
+	nsim_isa_swap_option=1
+	nsim_isa_bitscan_option=1
+	nsim_isa_mpy_option=8
+	nsim_isa_shift_option=3
+	nsim_isa_dsp_option=1
+	nsim_isa_dsp_complex_option=1
+	nsim_isa_fpus_div_option=1
+	nsim_isa_fpu_mac_option=1
+	nsim_isa_fpuda_option=1
+	nsim_isa_fpu_mpy_fast=0
+	nsim_isa_fpu_div_fast=0
+	nsim_isa_enable_timer_0=1
+	nsim_isa_timer_0_int_level=1
+	nsim_isa_enable_timer_1=1
+	nsim_isa_timer_1_int_level=0
+	nsim_isa_num_actionpoints=2
+	nsim_isa_has_dmp_peripheral=1
+	nsim_isa_smart_stack_entries=8
+	nsim_isa_number_of_interrupts=13
+	nsim_isa_number_of_levels=2
+	nsim_isa_number_of_external_interrupts=11
+	nsim_isa_intvbase_preset=0x0
+	dcache=16384,32,2,a
+	icache=16384,32,2,a
+	dccm_size=0x8000
+	dccm_base=0x8000_0000
+	iccm0_size=0x8000
+	iccm_base=0x0000_0000
+]]></string>
+  </configuration>
+  <configuration name="IDE" filename="ide.props">
+    <string><![CDATA[
+	processor.family=4
+	processor.core_version=1
+	processor.family_name=arcv2em
+	processor.rgf_num_banks=1
+	processor.endian=little
+	processor.lpc_size=32
+	processor.pc_size=32
+	processor.addr_size=32
+	processor.Xcode_density=1
+	processor.Xdiv_rem=radix2
+	processor.Xswap=1
+	processor.Xnorm=1
+	processor.Xmpy16=1
+	processor.Xmpy=1
+	processor.Xmpyd=1
+	processor.Xmpy_option=8
+	processor.Xshift_assist=1
+	processor.Xbarrel_shifter=1
+	processor.Xdsp_complex=1
+	processor.Xfpus_div=1
+	processor.Xfpu_mac=1
+	processor.Xfpuda=1
+	processor.Xfpus_mpy_slow=1
+	processor.Xfpus_div_slow=1
+	processor.Xtimer0=1
+	processor.Xtimer0_level=1
+	processor.Xtimer1=1
+	processor.Xtimer1_level=0
+	processor.action_points=2
+	processor.interrupts=13
+	processor.interrupt_priorities=2
+	processor.ext_interrupts=11
+	processor.interrupt_base=0x0
+	processor.dcache.size=16384
+	processor.dcache.line_size=32
+	processor.dcache.ways=2
+	processor.icache.size=16384
+	processor.icache.line_size=32
+	processor.icache.ways=2
+	processor.dccm_size=0x8000
+	processor.dccm_base=0x8000_0000
+	processor.iccm_size=0x8000
+	processor.iccm_base=0x0000_0000
+]]></string>
+  </configuration>
+  <configuration name="architect" filename="architect.txt">
+    <string><![CDATA[
+	######## Summary of processor build in ARChitect build option format
+	######## This is not suitable for input to the ARChitect.
+	######## Please use file build_configuration.txt if you wish to invoke
+	######## ARChitect with a configuration file.
+	-create com.arc.hardware.System.1_0 System
+	-create com.arc.hardware.implementation.1_0 System.Implementation
+	-create com.arc.hardware.CPU_isle.1_0 System.CPUisle
+	-create com.arc.hardware.ARCv2EM.1_0 System.CPUisle.ARCv2EM
+	-arcv2em_version 1
+	-infer_alu_adder false	// NO BCR INFO FOR THIS VALUE
+	-rgf_impl flip_flops	// NO BCR INFO FOR THIS VALUE
+	-turbo_boost true	// NO BCR INFO FOR THIS VALUE
+	-code_protection false	// NO BCR INFO FOR THIS VALUE
+	-arc_num 0
+	-arcv2em true
+	-rgf_num_banks 1
+	-rgf_banked_regs 32
+	-rgf_num_regs 32
+	-rgf_wr_ports 1
+	-byte_order little
+	-lpc_size 32
+	-pc_size 32
+	-addr_size 32
+	-atomic_option false
+	-code_density_option true
+	-div_rem_option radix2
+	-swap_option true
+	-bitscan_option true
+	-infer_mpy_wtree false	// NO BCR INFO FOR THIS VALUE
+	-mpy_option wlh3
+	-shift_option 3
+	-create com.arc.hardware.DSP.1_0 System.CPUisle.ARCv2EM.DSP
+	-dsp_complex true
+	-dsp_impl optimized	// NO BCR INFO FOR THIS VALUE
+	-create com.arc.hardware.Floating_point_unit.1_0 "System.CPUisle.ARCv2EM.Floating-point unit"
+	-fpu_div_option true
+	-fpu_fma_option true
+	-fpu_dp_assist true
+	-fpu_mas_cycles 2
+	-fpu_div_cycles 17
+	-timer_0_int_level 1
+	-create com.arc.hardware.Timer_0.1_0 "System.CPUisle.ARCv2EM.Timer 0"
+	-timer_1_int_level 0
+	-create com.arc.hardware.Timer_1.1_0 "System.CPUisle.ARCv2EM.Timer 1"
+	-stack_checking false
+	-create com.arc.hardware.Debug_Interface.1_0 "System.CPUisle.ARCv2EM.Debug Interface"
+	-create com.arc.hardware.JTAG_Interface.1_0 "System.CPUisle.ARCv2EM.JTAG Interface"
+	-create com.arc.hardware.SmaRT.1_0 System.CPUisle.ARCv2EM.SmaRT
+	-smart_stack_entries 8
+	-create com.arc.hardware.Interrupt_Controller.1_0 "System.CPUisle.ARCv2EM.Interrupt Controller"
+	-number_of_levels 2
+	-number_of_interrupts 13
+	-external_interrupts 11
+	-firq_option false
+	-overload_vectors false
+	-create com.arc.hardware.Data_Cache.1_0 "System.CPUisle.ARCv2EM.Data Cache"
+	-dc_size 16384
+	-dc_ways 2
+	-dc_bsize 32
+	-dc_feature_level 2
+	-create com.arc.hardware.Instruction_Cache.1_0 "System.CPUisle.ARCv2EM.Instruction Cache"
+	-ic_size 16384
+	-ic_ways 2
+	-ic_bsize 32
+	-ic_feature_level 2
+	-create com.arc.hardware.DCCM.1_0 System.CPUisle.ARCv2EM.DCCM
+	-dccm_size 32768
+	-dccm_dmi false	// NO BCR INFO FOR THIS VALUE
+	-create com.arc.hardware.ICCM0.1_0 System.CPUisle.ARCv2EM.ICCM0
+	-iccm0_size 32768
+	-iccm0_base 0
+	-create com.arc.hardware.Performance_Monitor.1_0 "System.CPUisle.ARCv2EM.Performance Monitor"
+	-pct_counters 8
+]]></string>
+  </configuration>
+  <configuration name="assembler_defines" filename="core_config.s">
+    <string><![CDATA[
+	.define	core.cir.identity,0x0013_0041
+	.define	core.cir.identity.arcver,65
+	.define	core.cir.identity.arcnum,0
+	.define	core.cir.identity.family,4
+	.define	core.cir.identity.corever,1
+	.define	core.cir.aux_dccm,0x8000_0000
+	.define	core.cir.bcr_ver,0x0000_0002
+	.define	core.cir.vecbase_ac_build,0x0000_0010
+	.define	core.cir.rf_build,0x0000_0002
+	.define	core.cir.rf_build.version,2
+	.define	core.cir.rf_build.e,0
+	.define	core.cir.rf_build.b,0
+	.define	core.cir.rf_build.d,0
+	.define	core.cir.rf_build.r,0
+	.define	core.cir.rf_build.p,0
+	.define	core.cir.d_cache_build,0x0021_5104
+	.define	core.cir.d_cache_build.assoc,1
+	.define	core.cir.d_cache_build.version,4
+	.define	core.cir.d_cache_build.capacity,5
+	.define	core.cir.d_cache_build.bsize,1
+	.define	core.cir.d_cache_build.fl,2
+	.define	core.cir.d_cache_build.ioc,0
+	.define	core.cir.d_cache_build.cp,0
+	.define	core.cir.d_cache_build.u,0
+	.define	core.cir.dccm_build,0x0000_0703
+	.define	core.cir.dccm_build.size,7
+	.define	core.cir.dccm_build.version,3
+	.define	core.cir.timer_build,0x0001_0304
+	.define	core.cir.timer_build.p1,0
+	.define	core.cir.timer_build.p0,1
+	.define	core.cir.timer_build.rtc,0
+	.define	core.cir.timer_build.rtsc_ver,1
+	.define	core.cir.timer_build.rtsc,0
+	.define	core.cir.timer_build.t0,1
+	.define	core.cir.timer_build.t1,1
+	.define	core.cir.timer_build.version,4
+	.define	core.cir.ap_build,0x0000_0405
+	.define	core.cir.ap_build.version,5
+	.define	core.cir.ap_build.type,4
+	.define	core.cir.i_cache_build,0x0022_5104
+	.define	core.cir.i_cache_build.assoc,1
+	.define	core.cir.i_cache_build.version,4
+	.define	core.cir.i_cache_build.capacity,5
+	.define	core.cir.i_cache_build.bsize,2
+	.define	core.cir.i_cache_build.fl,2
+	.define	core.cir.i_cache_build.d,0
+	.define	core.cir.iccm_build,0x0000_0704
+	.define	core.cir.iccm_build.size1,0
+	.define	core.cir.iccm_build.size0,7
+	.define	core.cir.iccm_build.version,4
+	.define	core.cir.dsp_build,0x0000_0420
+	.define	core.cir.dsp_build.comp,1
+	.define	core.cir.dsp_build.version,32
+	.define	core.cir.multiply_build,0x0002_2a06
+	.define	core.cir.multiply_build.version16x16,2
+	.define	core.cir.multiply_build.dsp,2
+	.define	core.cir.multiply_build.cyc,2
+	.define	core.cir.multiply_build.type,2
+	.define	core.cir.multiply_build.version32x32,6
+	.define	core.cir.swap_build,0x0000_0003
+	.define	core.cir.swap_build.version,3
+	.define	core.cir.norm_build,0x0000_0003
+	.define	core.cir.norm_build.version,3
+	.define	core.cir.minmax_build,0x0000_0002
+	.define	core.cir.minmax_build.version,2
+	.define	core.cir.barrel_build,0x0000_0303
+	.define	core.cir.barrel_build.version,3
+	.define	core.cir.barrel_build.shift_option,3
+	.define	core.cir.pct_build,0x0808_0102
+	.define	core.cir.pct_build.version,2
+	.define	core.cir.pct_build.s,1
+	.define	core.cir.pct_build.c,8
+	.define	core.cir.smart_build,0x0000_2003
+	.define	core.cir.smart_build.version,3
+	.define	core.cir.smart_build.stack_size,8
+	.define	core.cir.aux_iccm,0x0000_0000
+	.define	core.cir.dsp_build,0x0000_0420
+	.define	core.cir.dsp_build.comp,1
+	.define	core.cir.dsp_build.version,32
+	.define	core.cir.isa_config,0x1204_7402
+	.define	core.cir.isa_config.d,1
+	.define	core.cir.isa_config.c,2
+	.define	core.cir.isa_config.l,0
+	.define	core.cir.isa_config.n,0
+	.define	core.cir.isa_config.a,0
+	.define	core.cir.isa_config.b,0
+	.define	core.cir.isa_config.addr_size,4
+	.define	core.cir.isa_config.lpc_size,7
+	.define	core.cir.isa_config.pc_size,4
+	.define	core.cir.isa_config.version,2
+	.define	core.cir.fpu_build,0x0100_0f02
+	.define	core.cir.fpu_build.da,1
+	.define	core.cir.fpu_build.dd,0
+	.define	core.cir.fpu_build.dc,0
+	.define	core.cir.fpu_build.df,0
+	.define	core.cir.fpu_build.dp,0
+	.define	core.cir.fpu_build.fd,0
+	.define	core.cir.fpu_build.fm,0
+	.define	core.cir.fpu_build.sd,1
+	.define	core.cir.fpu_build.sc,1
+	.define	core.cir.fpu_build.sf,1
+	.define	core.cir.fpu_build.sp,1
+	.define	core.cir.fpu_build.version,2
+	.define	core.cir.irq_build,0x010b_0d01
+	.define	core.cir.irq_build.raz,0
+	.define	core.cir.irq_build.f,0
+	.define	core.cir.irq_build.p,1
+	.define	core.cir.irq_build.exts,11
+	.define	core.cir.irq_build.irqs,13
+	.define	core.cir.irq_build.version,1
+	.define	core.cir.cc_build,0x006f_0004
+	.define	core.cir.dmp_peripheral,0xf000_0000
+	.define	core.family,4
+	.define	core.core_version,1
+	.define	core.family_name,arcv2em
+	.define	core.rgf_num_banks,1
+	.define	core.endian,little
+	.define	core.lpc_size,32
+	.define	core.pc_size,32
+	.define	core.addr_size,32
+	.define	core.code_density,1
+	.define	core.div_rem,radix2
+	.define	core.swap,1
+	.define	core.norm,1
+	.define	core.mpy16,1
+	.define	core.mpy,1
+	.define	core.mpyd,1
+	.define	core.shift_assist,1
+	.define	core.barrel_shifter,1
+	.define	core.dsp,1
+	.define	core.dsp_complex,1
+	.define	core.fpus_div,1
+	.define	core.fpu_mac,1
+	.define	core.fpuda,1
+	.define	core.fpus_mpy_slow,1
+	.define	core.fpus_div_slow,1
+	.define	core.timer0,1
+	.define	core.timer0_level,1
+	.define	core.timer0.vector,16
+	.define	core.timer1,1
+	.define	core.timer1_level,0
+	.define	core.timer1.vector,17
+	.define	core.action_points,2
+	.define	core.interrupts.present,1
+	.define	core.interrupts.number,13
+	.define	core.interrupts.priorities,2
+	.define	core.interrupts.externals,11
+	.define	core.interrupts,13
+	.define	core.interrupt_priorities,2
+	.define	core.ext_interrupts,11
+	.define	core.interrupts.base,0x0
+	.define	core.dcache.present,1
+	.define	core.dcache.size,16384
+	.define	core.dcache.line_size,32
+	.define	core.dcache.ways,2
+	.define	core.icache.present,1
+	.define	core.icache.size,16384
+	.define	core.icache.line_size,32
+	.define	core.icache.ways,2
+	.define	core.iccm.present,1
+	.define	core.iccm.size,32768
+	.define	core.iccm.base,0x0000_0000
+]]></string>
+  </configuration>
+  <configuration name="C_defines" filename="core_config.h">
+    <string><![CDATA[
+	#define	core_cir_identity	0x0013_0041
+	#define	core_cir_identity_arcver	65
+	#define	core_cir_identity_arcnum	0
+	#define	core_cir_identity_family	4
+	#define	core_cir_identity_corever	1
+	#define	core_cir_aux_dccm	0x8000_0000
+	#define	core_cir_bcr_ver	0x0000_0002
+	#define	core_cir_vecbase_ac_build	0x0000_0010
+	#define	core_cir_rf_build	0x0000_0002
+	#define	core_cir_rf_build_version	2
+	#define	core_cir_rf_build_e	0
+	#define	core_cir_rf_build_b	0
+	#define	core_cir_rf_build_d	0
+	#define	core_cir_rf_build_r	0
+	#define	core_cir_rf_build_p	0
+	#define	core_cir_d_cache_build	0x0021_5104
+	#define	core_cir_d_cache_build_assoc	1
+	#define	core_cir_d_cache_build_version	4
+	#define	core_cir_d_cache_build_capacity	5
+	#define	core_cir_d_cache_build_bsize	1
+	#define	core_cir_d_cache_build_fl	2
+	#define	core_cir_d_cache_build_ioc	0
+	#define	core_cir_d_cache_build_cp	0
+	#define	core_cir_d_cache_build_u	0
+	#define	core_cir_dccm_build	0x0000_0703
+	#define	core_cir_dccm_build_size	7
+	#define	core_cir_dccm_build_version	3
+	#define	core_cir_timer_build	0x0001_0304
+	#define	core_cir_timer_build_p1	0
+	#define	core_cir_timer_build_p0	1
+	#define	core_cir_timer_build_rtc	0
+	#define	core_cir_timer_build_rtsc_ver	1
+	#define	core_cir_timer_build_rtsc	0
+	#define	core_cir_timer_build_t0	1
+	#define	core_cir_timer_build_t1	1
+	#define	core_cir_timer_build_version	4
+	#define	core_cir_ap_build	0x0000_0405
+	#define	core_cir_ap_build_version	5
+	#define	core_cir_ap_build_type	4
+	#define	core_cir_i_cache_build	0x0022_5104
+	#define	core_cir_i_cache_build_assoc	1
+	#define	core_cir_i_cache_build_version	4
+	#define	core_cir_i_cache_build_capacity	5
+	#define	core_cir_i_cache_build_bsize	2
+	#define	core_cir_i_cache_build_fl	2
+	#define	core_cir_i_cache_build_d	0
+	#define	core_cir_iccm_build	0x0000_0704
+	#define	core_cir_iccm_build_size1	0
+	#define	core_cir_iccm_build_size0	7
+	#define	core_cir_iccm_build_version	4
+	#define	core_cir_dsp_build	0x0000_0420
+	#define	core_cir_dsp_build_comp	1
+	#define	core_cir_dsp_build_version	32
+	#define	core_cir_multiply_build	0x0002_2a06
+	#define	core_cir_multiply_build_version16x16	2
+	#define	core_cir_multiply_build_dsp	2
+	#define	core_cir_multiply_build_cyc	2
+	#define	core_cir_multiply_build_type	2
+	#define	core_cir_multiply_build_version32x32	6
+	#define	core_cir_swap_build	0x0000_0003
+	#define	core_cir_swap_build_version	3
+	#define	core_cir_norm_build	0x0000_0003
+	#define	core_cir_norm_build_version	3
+	#define	core_cir_minmax_build	0x0000_0002
+	#define	core_cir_minmax_build_version	2
+	#define	core_cir_barrel_build	0x0000_0303
+	#define	core_cir_barrel_build_version	3
+	#define	core_cir_barrel_build_shift_option	3
+	#define	core_cir_pct_build	0x0808_0102
+	#define	core_cir_pct_build_version	2
+	#define	core_cir_pct_build_s	1
+	#define	core_cir_pct_build_c	8
+	#define	core_cir_smart_build	0x0000_2003
+	#define	core_cir_smart_build_version	3
+	#define	core_cir_smart_build_stack_size	8
+	#define	core_cir_aux_iccm	0x0000_0000
+	#define	core_cir_dsp_build	0x0000_0420
+	#define	core_cir_dsp_build_comp	1
+	#define	core_cir_dsp_build_version	32
+	#define	core_cir_isa_config	0x1204_7402
+	#define	core_cir_isa_config_d	1
+	#define	core_cir_isa_config_c	2
+	#define	core_cir_isa_config_l	0
+	#define	core_cir_isa_config_n	0
+	#define	core_cir_isa_config_a	0
+	#define	core_cir_isa_config_b	0
+	#define	core_cir_isa_config_addr_size	4
+	#define	core_cir_isa_config_lpc_size	7
+	#define	core_cir_isa_config_pc_size	4
+	#define	core_cir_isa_config_version	2
+	#define	core_cir_fpu_build	0x0100_0f02
+	#define	core_cir_fpu_build_da	1
+	#define	core_cir_fpu_build_dd	0
+	#define	core_cir_fpu_build_dc	0
+	#define	core_cir_fpu_build_df	0
+	#define	core_cir_fpu_build_dp	0
+	#define	core_cir_fpu_build_fd	0
+	#define	core_cir_fpu_build_fm	0
+	#define	core_cir_fpu_build_sd	1
+	#define	core_cir_fpu_build_sc	1
+	#define	core_cir_fpu_build_sf	1
+	#define	core_cir_fpu_build_sp	1
+	#define	core_cir_fpu_build_version	2
+	#define	core_cir_irq_build	0x010b_0d01
+	#define	core_cir_irq_build_raz	0
+	#define	core_cir_irq_build_f	0
+	#define	core_cir_irq_build_p	1
+	#define	core_cir_irq_build_exts	11
+	#define	core_cir_irq_build_irqs	13
+	#define	core_cir_irq_build_version	1
+	#define	core_cir_cc_build	0x006f_0004
+	#define	core_cir_dmp_peripheral	0xf000_0000
+	#define	core_family	4
+	#define	core_core_version	1
+	#define	core_family_name	arcv2em
+	#define	core_rgf_num_banks	1
+	#define	core_endian	little
+	#define	core_lpc_size	32
+	#define	core_pc_size	32
+	#define	core_addr_size	32
+	#define	core_code_density	1
+	#define	core_div_rem	radix2
+	#define	core_swap	1
+	#define	core_norm	1
+	#define	core_mpy16	1
+	#define	core_mpy	1
+	#define	core_mpyd	1
+	#define	core_shift_assist	1
+	#define	core_barrel_shifter	1
+	#define	core_dsp	1
+	#define	core_dsp_complex	1
+	#define	core_fpus_div	1
+	#define	core_fpu_mac	1
+	#define	core_fpuda	1
+	#define	core_fpus_mpy_slow	1
+	#define	core_fpus_div_slow	1
+	#define	core_timer0	1
+	#define	core_timer0_level	1
+	#define	core_timer0_vector	16
+	#define	core_timer1	1
+	#define	core_timer1_level	0
+	#define	core_timer1_vector	17
+	#define	core_action_points	2
+	#define	core_interrupts_present	1
+	#define	core_interrupts_number	13
+	#define	core_interrupts_priorities	2
+	#define	core_interrupts_externals	11
+	#define	core_interrupts	13
+	#define	core_interrupt_priorities	2
+	#define	core_ext_interrupts	11
+	#define	core_interrupts_base	0x0
+	#define	core_dcache_present	1
+	#define	core_dcache_size	16384
+	#define	core_dcache_line_size	32
+	#define	core_dcache_ways	2
+	#define	core_icache_present	1
+	#define	core_icache_size	16384
+	#define	core_icache_line_size	32
+	#define	core_icache_ways	2
+	#define	core_iccm_present	1
+	#define	core_iccm_size	32768
+	#define	core_iccm_base	0x0000_0000
+]]></string>
+  </configuration>
+  <configuration name="core" filename="core.props">
+    <string><![CDATA[
+	core.cir.identity=0x0013_0041
+	core.cir.identity.arcver=65
+	core.cir.identity.arcnum=0
+	core.cir.identity.family=4
+	core.cir.identity.corever=1
+	core.cir.aux_dccm=0x8000_0000
+	core.cir.bcr_ver=0x0000_0002
+	core.cir.vecbase_ac_build=0x0000_0010
+	core.cir.rf_build=0x0000_0002
+	core.cir.rf_build.version=2
+	core.cir.rf_build.e=0
+	core.cir.rf_build.b=0
+	core.cir.rf_build.d=0
+	core.cir.rf_build.r=0
+	core.cir.rf_build.p=0
+	core.cir.d_cache_build=0x0021_5104
+	core.cir.d_cache_build.assoc=1
+	core.cir.d_cache_build.version=4
+	core.cir.d_cache_build.capacity=5
+	core.cir.d_cache_build.bsize=1
+	core.cir.d_cache_build.fl=2
+	core.cir.d_cache_build.ioc=0
+	core.cir.d_cache_build.cp=0
+	core.cir.d_cache_build.u=0
+	core.cir.dccm_build=0x0000_0703
+	core.cir.dccm_build.size=7
+	core.cir.dccm_build.version=3
+	core.cir.timer_build=0x0001_0304
+	core.cir.timer_build.p1=0
+	core.cir.timer_build.p0=1
+	core.cir.timer_build.rtc=0
+	core.cir.timer_build.rtsc_ver=1
+	core.cir.timer_build.rtsc=0
+	core.cir.timer_build.t0=1
+	core.cir.timer_build.t1=1
+	core.cir.timer_build.version=4
+	core.cir.ap_build=0x0000_0405
+	core.cir.ap_build.version=5
+	core.cir.ap_build.type=4
+	core.cir.i_cache_build=0x0022_5104
+	core.cir.i_cache_build.assoc=1
+	core.cir.i_cache_build.version=4
+	core.cir.i_cache_build.capacity=5
+	core.cir.i_cache_build.bsize=2
+	core.cir.i_cache_build.fl=2
+	core.cir.i_cache_build.d=0
+	core.cir.iccm_build=0x0000_0704
+	core.cir.iccm_build.size1=0
+	core.cir.iccm_build.size0=7
+	core.cir.iccm_build.version=4
+	core.cir.dsp_build=0x0000_0420
+	core.cir.dsp_build.comp=1
+	core.cir.dsp_build.version=32
+	core.cir.multiply_build=0x0002_2a06
+	core.cir.multiply_build.version16x16=2
+	core.cir.multiply_build.dsp=2
+	core.cir.multiply_build.cyc=2
+	core.cir.multiply_build.type=2
+	core.cir.multiply_build.version32x32=6
+	core.cir.swap_build=0x0000_0003
+	core.cir.swap_build.version=3
+	core.cir.norm_build=0x0000_0003
+	core.cir.norm_build.version=3
+	core.cir.minmax_build=0x0000_0002
+	core.cir.minmax_build.version=2
+	core.cir.barrel_build=0x0000_0303
+	core.cir.barrel_build.version=3
+	core.cir.barrel_build.shift_option=3
+	core.cir.pct_build=0x0808_0102
+	core.cir.pct_build.version=2
+	core.cir.pct_build.s=1
+	core.cir.pct_build.c=8
+	core.cir.smart_build=0x0000_2003
+	core.cir.smart_build.version=3
+	core.cir.smart_build.stack_size=8
+	core.cir.aux_iccm=0x0000_0000
+	core.cir.dsp_build=0x0000_0420
+	core.cir.dsp_build.comp=1
+	core.cir.dsp_build.version=32
+	core.cir.isa_config=0x1204_7402
+	core.cir.isa_config.d=1
+	core.cir.isa_config.c=2
+	core.cir.isa_config.l=0
+	core.cir.isa_config.n=0
+	core.cir.isa_config.a=0
+	core.cir.isa_config.b=0
+	core.cir.isa_config.addr_size=4
+	core.cir.isa_config.lpc_size=7
+	core.cir.isa_config.pc_size=4
+	core.cir.isa_config.version=2
+	core.cir.fpu_build=0x0100_0f02
+	core.cir.fpu_build.da=1
+	core.cir.fpu_build.dd=0
+	core.cir.fpu_build.dc=0
+	core.cir.fpu_build.df=0
+	core.cir.fpu_build.dp=0
+	core.cir.fpu_build.fd=0
+	core.cir.fpu_build.fm=0
+	core.cir.fpu_build.sd=1
+	core.cir.fpu_build.sc=1
+	core.cir.fpu_build.sf=1
+	core.cir.fpu_build.sp=1
+	core.cir.fpu_build.version=2
+	core.cir.irq_build=0x010b_0d01
+	core.cir.irq_build.raz=0
+	core.cir.irq_build.f=0
+	core.cir.irq_build.p=1
+	core.cir.irq_build.exts=11
+	core.cir.irq_build.irqs=13
+	core.cir.irq_build.version=1
+	core.cir.cc_build=0x006f_0004
+	core.cir.dmp_peripheral=0xf000_0000
+	core.family=4
+	core.core_version=1
+	core.family_name=arcv2em
+	core.rgf_num_banks=1
+	core.endian=little
+	core.lpc_size=32
+	core.pc_size=32
+	core.addr_size=32
+	core.code_density=1
+	core.div_rem=radix2
+	core.swap=1
+	core.norm=1
+	core.mpy16=1
+	core.mpy=1
+	core.mpyd=1
+	core.shift_assist=1
+	core.barrel_shifter=1
+	core.dsp=1
+	core.dsp_complex=1
+	core.fpus_div=1
+	core.fpu_mac=1
+	core.fpuda=1
+	core.fpus_mpy_slow=1
+	core.fpus_div_slow=1
+	core.timer0=1
+	core.timer0_level=1
+	core.timer0.vector=16
+	core.timer1=1
+	core.timer1_level=0
+	core.timer1.vector=17
+	core.action_points=2
+	core.interrupts.present=1
+	core.interrupts.number=13
+	core.interrupts.priorities=2
+	core.interrupts.externals=11
+	core.interrupts=13
+	core.interrupt_priorities=2
+	core.ext_interrupts=11
+	core.interrupts.base=0x0
+	core.dcache.present=1
+	core.dcache.size=16384
+	core.dcache.line_size=32
+	core.dcache.ways=2
+	core.icache.present=1
+	core.icache.size=16384
+	core.icache.line_size=32
+	core.icache.ways=2
+	core.iccm.present=1
+	core.iccm.size=32768
+	core.iccm.base=0x0000_0000
+]]></string>
+  </configuration>
+  <configuration name="linker_command_file" filename="link_cmd.txt">
+    <string><![CDATA[
+MEMORY {
+    ICCM0   : ORIGIN = 0x0000_0000, LENGTH = 0x0000_8000
+#   CCMWRAP0: ORIGIN = 0x0000_8000, LENGTH = 0x0fff_8000
+    SYSTEM0 : ORIGIN = 0x1000_0000, LENGTH = 0x7000_0000
+    DCCM    : ORIGIN = 0x8000_0000, LENGTH = 0x0000_8000
+    SYSTEM1 : ORIGIN = 0x8000_8000, LENGTH = 0x6fff_8000
+    DMP     : ORIGIN = 0xf000_0000, LENGTH = 0x1000_0000
+    }
+SECTIONS {
+    GROUP: {
+        .vectors? (TEXT): {}
+	.text? : { *('.text$crt*') }
+        * (TEXT): {}
+    	* (LIT): {}
+	} > ICCM0
+
+    GROUP: {
+	/* _SDA_BASE_ computed implicitly */
+        .sdata?: {}
+        .sbss?: {}
+        * (DATA): {}
+        * (BSS): {}
+       .stack ALIGN(4) SIZE(DEFINED _STACKSIZE?_STACKSIZE:8192): {}
+       .heap? ALIGN(4) SIZE(DEFINED _HEAPSIZE?_HEAPSIZE:0): {}
+	} > DCCM
+    }
+
+]]></string>
+  </configuration>
+</config_list>
+

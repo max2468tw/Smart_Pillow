@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1217941790">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1217941790" moduleId="org.eclipse.cdt.core.settings" name="arcem11d">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arc.cdt.toolchain.ARCLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arc.cdt.toolchain.ARCCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arc.cdt.toolchain.ARCAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="ARC EM11D Configuration" id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1217941790" name="arcem11d" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1217941790.233171701" name="/" resourcePath="">
+						<toolChain id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1487233303" superClass="com.arc.cdt.toolchain.av2em.exeReleaseToolChain">
+							<targetPlatform id="hcTargetPlatform.1529162684" isAbstract="false" name="Generic platform" superClass="hcTargetPlatform"/>
+							<builder buildPath="${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client}" cleanBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem11d TOOLCHAIN=mw OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_lwm2m_lwm2m_client clean" id="makeBuilder.751345405" incrementalBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem11d TOOLCHAIN=mw OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_lwm2m_lwm2m_client all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="makeBuilder"/>
+							<tool id="arc.cdt.toolchain.av2em.exeCompilerRelease.129548542" superClass="arc.cdt.toolchain.av2em.exeCompilerRelease">
+								<option id="arc.compiler.options.defines.435704226" superClass="arc.compiler.options.defines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem11d"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_BANKED_REGS=32"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_NUM_BANKS=2"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=20000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_NTSHELL"/>
+									<listOptionValue builtIn="false" value="MID_WAKAAMA"/>
+									<listOptionValue builtIn="false" value="LWM2M_EMBEDDED_MODE"/>
+									<listOptionValue builtIn="false" value="LWM2M_LITTLE_ENDIAN"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=81920"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=81920"/>
+									<listOptionValue builtIn="false" value="__MW__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=METAWARE"/>
+									<listOptionValue builtIn="false" value="LWM2M_CLIENT_MODE"/>
+								</option>
+								<option id="arc.compiler.options.target.version.1334645829" superClass="arc.compiler.options.target.version" value="arc.compiler.options.target.arcv2em" valueType="enumerated"/>
+								<option id="arc.compiler.options.include_dirs.1228429424" superClass="arc.compiler.options.include_dirs" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_extend}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs/ymodem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_peripheral}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core/er-coap-13}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/port/conn/udp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client/objects}&quot;"/>
+								</option>
+								<inputType id="com.arc.cdt.toolchain.arc.ccac.inputTypeCPP.1032524315" name="MetaWare C++ Input" superClass="com.arc.cdt.toolchain.arc.ccac.inputTypeCPP"/>
+								<inputType id="com.arc.cdt.toolchain.arc.ccac.inputTypeC.2041362630" name="MetaWare C Input" superClass="com.arc.cdt.toolchain.arc.ccac.inputTypeC"/>
+							</tool>
+							<tool id="com.arc.cdt.toolchain.av2em.asmReleaseExe.440907144" superClass="com.arc.cdt.toolchain.av2em.asmReleaseExe">
+								<option id="arc.compiler.options.target.asm.version.1933911098" superClass="arc.compiler.options.target.asm.version" value="arc.compiler.options.target.arcv2em" valueType="enumerated"/>
+								<option id="com.arc.cdt.toolchain.asm.option.defines.1819127972" superClass="com.arc.cdt.toolchain.asm.option.defines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem11d"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_BANKED_REGS=32"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_RGF_NUM_BANKS=2"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=20000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_NTSHELL"/>
+									<listOptionValue builtIn="false" value="MID_WAKAAMA"/>
+									<listOptionValue builtIn="false" value="LWM2M_EMBEDDED_MODE"/>
+									<listOptionValue builtIn="false" value="LWM2M_LITTLE_ENDIAN"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=81920"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=81920"/>
+									<listOptionValue builtIn="false" value="__MW__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=METAWARE"/>
+									<listOptionValue builtIn="false" value="LWM2M_CLIENT_MODE"/>
+								</option>
+								<option id="com.arc.cdt.toolchain.asm.option.includes.2054907828" superClass="com.arc.cdt.toolchain.asm.option.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_extend}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs/ymodem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_peripheral}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core/er-coap-13}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/port/conn/udp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client/objects}&quot;"/>
+								</option>
+								<inputType id="com.arc.cdt.toolchain.asminput.858043310" name="Assembler Inputs" superClass="com.arc.cdt.toolchain.asminput"/>
+							</tool>
+							<tool id="com.arc.cdt.toolchain.av2em.exelinkerRelease.1017992306" superClass="com.arc.cdt.toolchain.av2em.exelinkerRelease">
+								<option id="arc.linker.options.target.version.1752828879" superClass="arc.linker.options.target.version" value="arc.compiler.options.target.arcv2em" valueType="enumerated"/>
+								<inputType id="com.arc.cdt.toolchain.linker.input.630852400" name="Linker Input" superClass="com.arc.cdt.toolchain.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arc.cdt.toolchain.arc.archiver.1019452839" superClass="com.arc.cdt.toolchain.arc.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1960599619">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1960599619" moduleId="org.eclipse.cdt.core.settings" name="arcem7d">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arc.cdt.toolchain.ARCLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arc.cdt.toolchain.ARCCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.arc.cdt.toolchain.ARCAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="ARC EM7D Configuration" id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1960599619" name="arcem7d" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1960599619.233171701" name="/" resourcePath="">
+						<toolChain id="com.arc.cdt.toolchain.av2em.exeReleaseToolChain.1487233303" superClass="com.arc.cdt.toolchain.av2em.exeReleaseToolChain">
+							<targetPlatform id="hcTargetPlatform.1529162684" isAbstract="false" name="Generic platform" superClass="hcTargetPlatform"/>
+							<builder buildPath="${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client}" cleanBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem7d TOOLCHAIN=mw OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_lwm2m_lwm2m_client clean" id="makeBuilder.751345405" incrementalBuildTarget="BOARD=emsk BD_VER=22 CUR_CORE=arcem7d TOOLCHAIN=mw OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_iot_lwm2m_lwm2m_client all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="makeBuilder"/>
+							<tool id="arc.cdt.toolchain.av2em.exeCompilerRelease.129548542" superClass="arc.cdt.toolchain.av2em.exeCompilerRelease">
+								<option id="arc.compiler.options.defines.435704226" superClass="arc.compiler.options.defines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem7d"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_NTSHELL"/>
+									<listOptionValue builtIn="false" value="MID_WAKAAMA"/>
+									<listOptionValue builtIn="false" value="LWM2M_EMBEDDED_MODE"/>
+									<listOptionValue builtIn="false" value="LWM2M_LITTLE_ENDIAN"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=81920"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=81920"/>
+									<listOptionValue builtIn="false" value="__MW__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=METAWARE"/>
+									<listOptionValue builtIn="false" value="LWM2M_CLIENT_MODE"/>
+								</option>
+								<option id="arc.compiler.options.target.version.1334645829" superClass="arc.compiler.options.target.version" value="arc.compiler.options.target.arcv2em" valueType="enumerated"/>
+								<option id="arc.compiler.options.include_dirs.1228429424" superClass="arc.compiler.options.include_dirs" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_extend}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs/ymodem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_peripheral}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core/er-coap-13}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/port/conn/udp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client/objects}&quot;"/>
+								</option>
+								<inputType id="com.arc.cdt.toolchain.arc.ccac.inputTypeCPP.1032524315" name="MetaWare C++ Input" superClass="com.arc.cdt.toolchain.arc.ccac.inputTypeCPP"/>
+								<inputType id="com.arc.cdt.toolchain.arc.ccac.inputTypeC.2041362630" name="MetaWare C Input" superClass="com.arc.cdt.toolchain.arc.ccac.inputTypeC"/>
+							</tool>
+							<tool id="com.arc.cdt.toolchain.av2em.asmReleaseExe.440907144" superClass="com.arc.cdt.toolchain.av2em.asmReleaseExe">
+								<option id="arc.compiler.options.target.asm.version.1933911098" superClass="arc.compiler.options.target.asm.version" value="arc.compiler.options.target.arcv2em" valueType="enumerated"/>
+								<option id="com.arc.cdt.toolchain.asm.option.defines.1819127972" superClass="com.arc.cdt.toolchain.asm.option.defines" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem7d"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=20"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-4"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_FIRQ=1"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=22"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="MID_FATFS"/>
+									<listOptionValue builtIn="false" value="MID_LWIP"/>
+									<listOptionValue builtIn="false" value="MID_LWIP_CONTRIB"/>
+									<listOptionValue builtIn="false" value="MID_NTSHELL"/>
+									<listOptionValue builtIn="false" value="MID_WAKAAMA"/>
+									<listOptionValue builtIn="false" value="LWM2M_EMBEDDED_MODE"/>
+									<listOptionValue builtIn="false" value="LWM2M_LITTLE_ENDIAN"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=81920"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=81920"/>
+									<listOptionValue builtIn="false" value="__MW__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=METAWARE"/>
+									<listOptionValue builtIn="false" value="LWM2M_CLIENT_MODE"/>
+								</option>
+								<option id="com.arc.cdt.toolchain.asm.option.includes.2054907828" superClass="com.arc.cdt.toolchain.asm.option.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/board/emsk/configs/22}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/fatfs/src/diskdrv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip-contrib/ports/arcem/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/lwip/src/include/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_extend}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_fs/ymodem}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/cmds/cmds_peripheral}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/ntshell/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/core/er-coap-13}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/middleware/wakaama/port/conn/udp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/os/hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_iot_lwm2m_lwm2m_client/example/freertos/iot/lwm2m/lwm2m_client/objects}&quot;"/>
+								</option>
+								<inputType id="com.arc.cdt.toolchain.asminput.858043310" name="Assembler Inputs" superClass="com.arc.cdt.toolchain.asminput"/>
+							</tool>
+							<tool id="com.arc.cdt.toolchain.av2em.exelinkerRelease.1017992306" superClass="com.arc.cdt.toolchain.av2em.exelinkerRelease">
+								<option id="arc.linker.options.target.version.1752828879" superClass="arc.linker.options.target.version" value="arc.compiler.options.target.arcv2em" valueType="enumerated"/>
+								<inputType id="com.arc.cdt.toolchain.linker.input.630852400" name="Linker Input" superClass="com.arc.cdt.toolchain.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.arc.cdt.toolchain.arc.archiver.1019452839" superClass="com.arc.cdt.toolchain.arc.archiver"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="freertos_iot_lwm2m_lwm2m_client.null.123456789" name="freertos_iot_lwm2m_lwm2m_client"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="arcem7d">
+			<resource resourceType="PROJECT" workspacePath="/freertos_iot_lwm2m_lwm2m_client"/>
+		</configuration>
+		<configuration configurationName="arcem11d">
+			<resource resourceType="PROJECT" workspacePath="/freertos_iot_lwm2m_lwm2m_client"/>
+		</configuration>
+	</storageModule>
+</cproject>
