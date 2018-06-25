@@ -6,3 +6,8 @@ Info : JTAG tap: arc-em.cpu tap/device found: 0x200044b1 (mfg: 0x258, part: 0x00
 Info : JTAG tap: arc-em.cpu tap/device found: 0x200044b1 (mfg: 0x258, part: 0x0004, ver: 0x2)
 target state: halted
 Info : accepting 'gdb' connection from pipe
+Warn : keep_alive() was not invoked in the 1000ms timelimit. GDB alive packet not sent! (60112). Workaround: increase "set remotetimeout" in GDB
+Warn : keep_alive() was not invoked in the 1000ms timelimit. GDB alive packet not sent! (60000). Workaround: increase "set remotetimeout" in GDB
+Warn : keep_alive() was not invoked in the 1000ms timelimit. GDB alive packet not sent! (60001). Workaround: increase "set remotetimeout" in GDB
+Warn : keep_alive() was not invoked in the 1000ms timelimit. GDB alive packet not sent! (60010). Workaround: increase "set remotetimeout" in GDB
+Warn : keep_alive() was not invoked in the 1000ms timelimit. GDB alive packet not sent! (60011). Workaround: increase "set remotetimeout" in GDB

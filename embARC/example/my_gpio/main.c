@@ -78,9 +78,9 @@ int main(void)
 	while(1)
 	{
 		gpio->gpio_write(GPIO_BITS_MASK_ALL,GPIO_BITS_MASK_ALL);
-		board_delay_ms(500, 1);
+		board_delay_ms(10, 1);
 		gpio->gpio_write(GPIO_BITS_MASK_NONE,GPIO_BITS_MASK_ALL);
-		board_delay_ms(500, 1);
+		board_delay_ms(10, 1);
 	}
 	return E_SYS;
 }
@@ -88,7 +88,7 @@ int main(void)
 /** emsk on-board gpio init, gpio default off */
 void my_emsk_gpio_init(void)
 {
-	gpio = gpio_get_dev(DW_GPIO_PORT_B);
+	gpio = gpio_get_dev(DW_GPIO_PORT_C);
 
 	EMSK_GPIO_CHECK_EXP_NORTN(gpio != NULL);
 

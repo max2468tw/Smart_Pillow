@@ -83,7 +83,7 @@ int main(void)
 	char send_message[4];
 	while(1)
 	{
-		ble->uart_read(read_message, 7);
+		ble->uart_read(read_message, 5);
 		
 		if(strstr(read_message, "start") != NULL) {
 			EMBARC_PRINTF("Get message\n");

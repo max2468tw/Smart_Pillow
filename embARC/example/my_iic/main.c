@@ -89,11 +89,11 @@ int main(void)
 		iic->iic_read(data,1);
 		val = val + data[0];
 		if (((val & 0x3000)>> 12) == 0)
-			EMBARC_PRINTF("This is V1 : %d\n", val);
+			EMBARC_PRINTF("This is V1 : \t%d\n", val);
 		else if(((val & 0x3000)>> 12) == 1)
-			EMBARC_PRINTF("This is V2 : %d\n", val);
+			EMBARC_PRINTF("This is V2 : \t\t%d\n", val);
 		else if(((val & 0x3000)>> 12) == 2)
-			EMBARC_PRINTF("This is V3 : %d\n", val);
+			EMBARC_PRINTF("This is V3 : \t\t\t%d\n", val);
 		else if(((val & 0x3000)>> 12) == 3)
 			EMBARC_PRINTF("This is V4 : %d\n", val);
 		else

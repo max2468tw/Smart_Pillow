@@ -1,0 +1,910 @@
+Archive member included to satisfy reference by file (symbol)
+
+obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+                              obj_emsk_22/gnu_arcem7d/board.o (board_init)
+obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o (emsk_timer_init)
+obj_emsk_22/gnu_arcem7d/emsk/mux.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o (mux_init)
+obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+                              obj_emsk_22/gnu_arcem7d/main.o (iic_get_dev)
+obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o (emsk_gpio_init)
+obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o (gpio_get_dev)
+obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o (emsk_sdcard_1ms_update)
+obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+                              obj_emsk_22/gnu_arcem7d/board.o (xprintf_setup)
+obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+                              obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o (xfunc_out)
+obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o (timer_present)
+obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o (int_handler_install)
+obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+                              obj_emsk_22/gnu_arcem7d/arc/arc_exception.o (_arc_reset)
+obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+                              obj_emsk_22/gnu_arcem7d/arc/arc_exception.o (exc_entry_cpu)
+obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+                              obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o (gnu_printf_setup)
+obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+                              obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o (dw_iic_open)
+obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+                              obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o (dw_gpio_open)
+obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+                              obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o (uart_get_dev)
+obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+                              obj_emsk_22/gnu_arcem7d/arc/arc_startup.o (arc_cache_init)
+obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+                              obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o (dw_uart_open)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o (__divdi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+                              obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o (__udivdi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                              obj_emsk_22/gnu_arcem7d/main.o (__addsf3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                              obj_emsk_22/gnu_arcem7d/main.o (__adddf3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivsi3.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o) (__udivsi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divsi3.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o) (__divsi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_umodsi3.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o) (__umodsi3)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divmod_tools.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivsi3.o) (__udivmodsi4)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clzsi2.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o) (__clzsi2)
+c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+                              c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+xfunc_in            0x4               obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+dw_uart_0           0x5c              obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+dw_iic_0_ctrl       0x58              obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+xfunc_out           0x4               obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+dw_iic_1            0x68              obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+exc_nest_count      0x4               obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+dw_uart_1           0x5c              obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+dw_iic_0            0x68              obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+dw_iic_1_ctrl       0x58              obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+iccm             0x00000000         0x00040000
+dccm             0x80000000         0x00020000
+ddr              0x10000000         0x08000000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00002000                _HEAPSIZE = 0x2000
+                0x00002000                _STACKSIZE = 0x2000
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/../../../../arc-elf32/lib/arcem\libm.a
+
+.init           0x10000000      0x198
+                0x10000000                _f_init = .
+ *(.init_vector)
+ .init_vector   0x10000000        0x4 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ *(.init_bootstrap)
+ .init_bootstrap
+                0x10000004      0x194 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+                0x10000004                _arc_reset
+                0x10000004                _start
+                0x10000184                _exit_loop
+                0x10000184                _exit_halt
+                0x10000198                _e_init = .
+
+.text           0x10000198     0x698c
+                0x10000198                _f_text = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x10000198      0x2e0 obj_emsk_22/gnu_arcem7d/main.o
+                0x10000198                my_emsk_iic_init
+                0x10000200                cal
+ .text.startup  0x10000478      0x118 obj_emsk_22/gnu_arcem7d/main.o
+                0x10000478                main
+ .text          0x10000590       0x38 obj_emsk_22/gnu_arcem7d/board.o
+                0x10000590                board_main
+ .text          0x100005c8       0x38 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+                0x100005c8                board_init
+ .text          0x10000600      0x26c obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+                0x10000600                board_timer_update
+                0x1000068c                emsk_timer_init
+                0x100006ec                board_get_hwticks
+                0x10000724                board_get_cur_us
+                0x1000077c                board_delay_ms
+ .text          0x1000086c       0x44 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+                0x1000086c                mux_init
+                0x10000880                get_mux_regs
+                0x1000088c                set_pmod_mux
+                0x10000890                get_pmod_mux
+                0x10000894                change_pmod_mux
+                0x100008a0                set_spi_map
+                0x100008a4                get_spi_map
+                0x100008a8                set_uart_map
+                0x100008ac                get_uart_map
+ .text          0x100008b0      0x2f0 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+                0x10000b30                iic_get_dev
+                0x10000b94                dw_iic_all_install
+ .text          0x10000ba0      0x1c8 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+                0x10000ba0                emsk_led_init
+                0x10000c04                emsk_button_init
+                0x10000c54                emsk_switch_init
+                0x10000ca4                emsk_gpio_init
+                0x10000cb4                led_write
+                0x10000cd0                led_read
+                0x10000d00                switch_read
+                0x10000d34                button_read
+ .text          0x10000d68      0x49c obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+                0x10000eb8                dw_gpio_all_install
+                0x100011b4                gpio_get_dev
+ .text          0x10001204        0x4 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+                0x10001204                emsk_sdcard_1ms_update
+ .text          0x10001208      0x128 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+                0x10001208                console_putchar
+                0x10001234                console_getchar
+                0x10001270                console_putstr
+                0x10001284                console_getstr
+                0x10001298                xprintf_setup
+ .text          0x10001330      0x708 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+                0x10001330                xputc
+                0x100013fc                xputs
+                0x1000141c                xfputs
+                0x10001450                xvprintf
+                0x10001794                xprintf
+                0x100017bc                xsprintf
+                0x100017fc                xfprintf
+                0x1000183c                put_dump
+                0x10001910                xgets
+                0x10001924                xfgets
+                0x10001958                xatoi
+ .text          0x10001a38      0x1ec obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+                0x10001a38                timer_present
+                0x10001a64                timer_start
+                0x10001adc                timer_stop
+                0x10001b58                timer_current
+                0x10001ba0                timer_int_clear
+                0x10001bdc                timer_init
+ .text          0x10001c24      0x220 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+                0x10001cc4                exc_entry_install
+                0x10001d34                exc_entry_get
+                0x10001d48                exc_handler_install
+                0x10001d60                exc_handler_get
+                0x10001d74                exc_int_init
+                0x10001de0                int_handler_install
+                0x10001dfc                int_handler_get
+                0x10001e14                int_pri_set
+                0x10001e30                exc_no2string
+ .text          0x10001e44        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .text          0x10001e44      0x358 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+                0x10001e44                exc_entry_cpu
+                0x10001fb8                exc_entry_int
+                0x10002060                exc_entry_firq
+ .text          0x1000219c        0x4 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+                0x1000219c                gnu_printf_setup
+ .text          0x100021a0     0x1300 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+                0x10002480                dw_iic_open
+                0x10002770                dw_iic_close
+                0x10002888                dw_iic_control
+                0x10002e34                dw_iic_write
+                0x10002fa4                dw_iic_read
+                0x1000311c                dw_iic_isr
+ .text          0x100034a0      0x528 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+                0x100034ec                dw_gpio_open
+                0x100035e4                dw_gpio_close
+                0x10003690                dw_gpio_read
+                0x100036fc                dw_gpio_write
+                0x10003740                dw_gpio_control
+                0x10003924                dw_gpio_isr_handler
+ .text          0x100039c8      0x1b4 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+                0x10003a70                dw_uart_all_install
+                0x10003b1c                uart_get_dev
+ .text          0x10003b7c      0x408 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+                0x10003b7c                icache_invalidate_mlines
+                0x10003bcc                icache_lock_mlines
+                0x10003c2c                icache_direct_write
+                0x10003c58                icache_direct_read
+                0x10003c84                icache_indirect_read
+                0x10003cb8                dcache_invalidate_mlines
+                0x10003d10                dcache_flush_mlines
+                0x10003d68                dcache_lock_mlines
+                0x10003dc8                dcache_direct_write
+                0x10003df4                dcache_direct_read
+                0x10003e20                dcache_indirect_read
+                0x10003e54                arc_cache_init
+ .text          0x10003f84      0xa3c obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+                0x10004144                dw_uart_open
+                0x100042f0                dw_uart_close
+                0x10004418                dw_uart_control
+                0x1000477c                dw_uart_write
+                0x100047dc                dw_uart_read
+                0x1000483c                dw_uart_isr
+ .text          0x100049c0        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+ .text.__divdi3
+                0x100049c0      0x4fc c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+                0x100049c0                __divdi3
+ .text          0x10004ebc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+ .text.__udivdi3
+                0x10004ebc      0x4c8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+                0x10004ebc                __udivdi3
+ .text          0x10005384        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .text._fpadd_parts
+                0x10005384      0x174 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .text.__pack_f
+                0x100054f8      0x100 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x100054f8                __pack_f
+ .text.__unpack_f
+                0x100055f8       0x90 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x100055f8                __unpack_f
+ .text.__addsf3
+                0x10005688       0x34 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005688                __addsf3
+ .text.__subsf3
+                0x100056bc       0x3c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x100056bc                __subsf3
+ .text.__mulsf3
+                0x100056f8      0x14c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x100056f8                __mulsf3
+ .text.__divsf3
+                0x10005844      0x104 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005844                __divsf3
+ .text.__fpcmp_parts_f
+                0x10005948       0x90 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005948                __fpcmp_parts_f
+ .text.__cmpsf2
+                0x100059d8       0x2c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x100059d8                __cmpsf2
+ .text.__eqsf2  0x10005a04       0x44 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a04                __eqsf2
+ .text.__nesf2  0x10005a48        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a48                __nesf2
+ .text.__gtsf2  0x10005a4c       0x44 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a4c                __gtsf2
+ .text.__gesf2  0x10005a90        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a90                __gesf2
+ .text.__ltsf2  0x10005a94        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a94                __ltsf2
+ .text.__lesf2  0x10005a98        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a98                __lesf2
+ .text.__unordsf2
+                0x10005a9c       0x3c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005a9c                __unordsf2
+ .text.__floatsisf
+                0x10005ad8       0x84 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005ad8                __floatsisf
+ .text.__floatunsisf
+                0x10005b5c       0x68 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005b5c                __floatunsisf
+ .text.__fixsfsi
+                0x10005bc4       0x74 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005bc4                __fixsfsi
+ .text.__negsf2
+                0x10005c38       0x28 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005c38                __negsf2
+ .text.__make_fp
+                0x10005c60       0x1c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005c60                __make_fp
+ .text.__extendsfdf2
+                0x10005c7c       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x10005c7c                __extendsfdf2
+ .text          0x10005cac        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+ .text._fpadd_parts
+                0x10005cac      0x2f0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+ .text.__pack_d
+                0x10005f9c      0x1bc c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10005f9c                __pack_d
+ .text.__unpack_d
+                0x10006158       0xd0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006158                __unpack_d
+ .text.__adddf3
+                0x10006228       0x34 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006228                __adddf3
+ .text.__subdf3
+                0x1000625c       0x3c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x1000625c                __subdf3
+ .text.__muldf3
+                0x10006298      0x23c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006298                __muldf3
+ .text.__divdf3
+                0x100064d4      0x170 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100064d4                __divdf3
+ .text.__fpcmp_parts_d
+                0x10006644       0xa8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006644                __fpcmp_parts_d
+ .text.__cmpdf2
+                0x100066ec       0x2c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100066ec                __cmpdf2
+ .text.__eqdf2  0x10006718       0x44 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006718                __eqdf2
+ .text.__nedf2  0x1000675c        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x1000675c                __nedf2
+ .text.__gtdf2  0x10006760       0x44 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006760                __gtdf2
+ .text.__gedf2  0x100067a4        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100067a4                __gedf2
+ .text.__ltdf2  0x100067a8        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100067a8                __ltdf2
+ .text.__ledf2  0x100067ac        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100067ac                __ledf2
+ .text.__unorddf2
+                0x100067b0       0x3c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100067b0                __unorddf2
+ .text.__floatsidf
+                0x100067ec       0x88 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100067ec                __floatsidf
+ .text.__floatunsidf
+                0x10006874       0x64 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006874                __floatunsidf
+ .text.__fixdfsi
+                0x100068d8       0x94 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100068d8                __fixdfsi
+ .text.__fixunsdfsi
+                0x1000696c       0x68 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x1000696c                __fixunsdfsi
+ .text.__negdf2
+                0x100069d4       0x28 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100069d4                __negdf2
+ .text.__make_dp
+                0x100069fc       0x20 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100069fc                __make_dp
+ .text.__truncdfsf2
+                0x10006a1c       0x38 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x10006a1c                __truncdfsf2
+ .text          0x10006a54        0x4 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivsi3.o)
+                0x10006a54                __udivsi3
+ .text          0x10006a58       0x1c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divsi3.o)
+                0x10006a58                __divsi3
+ .text          0x10006a74       0x10 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_umodsi3.o)
+                0x10006a74                __umodsi3
+ .text          0x10006a84       0x70 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divmod_tools.o)
+                0x10006a84                __udivmodsi4
+ .text          0x10006af4       0x30 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clzsi2.o)
+                0x10006af4                __clzsi2
+ .text          0x10006b24        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+                0x10006b24                _e_text = .
+
+.rodata         0x10006b24      0x7bc
+                0x10006b24                _f_rodata = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x10006b24       0x1c obj_emsk_22/gnu_arcem7d/main.o
+ .rodata        0x10006b40       0x20 obj_emsk_22/gnu_arcem7d/main.o
+ .rodata.str1.4
+                0x10006b60        0x5 obj_emsk_22/gnu_arcem7d/board.o
+                                  0x8 (size before relaxing)
+ *fill*         0x10006b65        0x3 
+ .rodata        0x10006b68       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .rodata        0x10006b88       0x10 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .rodata.str1.4
+                0x10006b98      0x320 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .rodata        0x10006eb8       0x5c obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .rodata.str1.4
+                0x10006f14       0x1f obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+                                 0x20 (size before relaxing)
+ *fill*         0x10006f33        0x1 
+ .rodata.str1.4
+                0x10006f34      0x188 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .rodata        0x100070bc       0x40 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .rodata        0x100070fc       0x2c obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .rodata        0x10007128       0x94 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+                0x100071ac                dw_uart_stopbits
+                0x100071b0                dw_uart_parity
+                0x100071b8                dw_uart_databits
+ .rodata.__thenan_sf
+                0x100071bc       0x10 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+                0x100071bc                __thenan_sf
+ .rodata.__thenan_df
+                0x100071cc       0x14 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+                0x100071cc                __thenan_df
+ .rodata.__clz_tab
+                0x100071e0      0x100 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+                0x100071e0                __clz_tab
+                0x100072e0                _e_rodata = .
+
+.vector         0x10007400      0x400
+                0x10007400                _f_vector = .
+ *(.vector)
+ .vector        0x10007400      0x400 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+                0x10007400                exc_entry_table
+                0x10007800                _e_vector = .
+                0x10007800                . = ALIGN (0x4)
+
+.data           0x10007800       0xdc
+                0x10007800                _f_data = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x10007800        0x4 obj_emsk_22/gnu_arcem7d/main.o
+ .data          0x10007804        0x8 obj_emsk_22/gnu_arcem7d/board.o
+                0x10007804                s_main_args
+ .data          0x1000780c        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .data          0x1000780c        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .data          0x1000780c        0x0 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .data          0x1000780c        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .data          0x1000780c        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .data          0x1000780c        0x8 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .data          0x10007814        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .data          0x10007814        0x0 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .data          0x10007814        0x0 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .data          0x10007814        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .data          0x10007814       0x90 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+                0x10007814                exc_int_handler_table
+ .data          0x100078a4        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .data          0x100078a4        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .data          0x100078a4        0x0 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .data          0x100078a4        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .data          0x100078a4        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .data          0x100078a4       0x38 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+                0x100078a4                dw_uart_1_ctrl
+                0x100078c0                dw_uart_0_ctrl
+ .data          0x100078dc        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .data          0x100078dc        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivsi3.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divsi3.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_umodsi3.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divmod_tools.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clzsi2.o)
+ .data          0x100078dc        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+                0x100078dc                . = ALIGN (0x4)
+
+.sdata          0x100078dc        0x0
+                0x100078dc                _f_sdata = .
+                0x100078dc                __SDATA_BEGIN__ = .
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+                0x100078dc                _e_sdata = .
+                0x100078dc                _e_data = .
+
+.sbss           0x100078e0        0x0
+                [!provide]                PROVIDE (__sbss_start, .)
+                [!provide]                PROVIDE (___sbss_start, .)
+                0x100078e0                _f_bss = .
+                0x100078e0                _f_sbss = .
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+                0x100078e0                _e_sbss = .
+                [!provide]                PROVIDE (__sbss_end, .)
+                [!provide]                PROVIDE (___sbss_end, .)
+
+.bss            0x100078e0    0x61ea0
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x100078e0    0x61a90 obj_emsk_22/gnu_arcem7d/main.o
+ .bss           0x10069370        0x0 obj_emsk_22/gnu_arcem7d/board.o
+ .bss           0x10069370        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .bss           0x10069370       0x14 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+                0x10069378                gl_emsk_ms_cnt
+                0x1006937c                gl_emsk_sys_hz_cnt
+ .bss           0x10069384        0x4 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .bss           0x10069388        0x4 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .bss           0x1006938c        0xc obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .bss           0x10069398      0x184 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .bss           0x1006951c        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .bss           0x1006951c        0x8 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .bss           0x10069524        0x4 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .bss           0x10069528        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .bss           0x10069528        0x4 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .bss           0x1006952c       0x10 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .bss           0x1006953c        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivsi3.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divsi3.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_umodsi3.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divmod_tools.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clzsi2.o)
+ .bss           0x1006953c        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+ *(COMMON)
+ COMMON         0x1006953c      0x180 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+                0x1006953c                dw_iic_0_ctrl
+                0x10069594                dw_iic_1
+                0x100695fc                dw_iic_0
+                0x10069664                dw_iic_1_ctrl
+ COMMON         0x100696bc        0x8 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+                0x100696bc                xfunc_in
+                0x100696c0                xfunc_out
+ COMMON         0x100696c4        0x4 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+                0x100696c4                exc_nest_count
+ COMMON         0x100696c8       0xb8 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+                0x100696c8                dw_uart_0
+                0x10069724                dw_uart_1
+                0x10069780                _e_bss = .
+
+.stack          0x10069780     0x2000
+                0x10069780                . = ALIGN (0x4)
+                0x10069780                _f_stack = .
+                0x1006a780                . = (. + DEFINED (_STACKSIZE)?_STACKSIZE:0x1000)
+ *fill*         0x10069780     0x2000 
+                0x1006b780                _e_stack = .
+
+.heap           0x1006b780     0x2000
+                0x1006b780                . = ALIGN (0x4)
+                0x1006b780                __start_heap = .
+                0x1006b780                _f_heap = .
+                0x1006c780                . = (. + DEFINED (_HEAPSIZE)?_HEAPSIZE:0x1000)
+ *fill*         0x1006b780     0x2000 
+                0x1006d780                _e_heap = .
+                0x1006d780                __end_heap = .
+                0x10000198                _load_addr_text = LOADADDR (.text)
+                0x10006b24                _load_addr_rodata = LOADADDR (.rodata)
+                0x10007800                _load_addr_data = LOADADDR (.data)
+LOAD obj_emsk_22/gnu_arcem7d/main.o
+LOAD obj_emsk_22/gnu_arcem7d/board.o
+START GROUP
+LOAD obj_emsk_22/gnu_arcem7d/libembarc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/../../../../arc-elf32/lib/arcem\libm.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/../../../../arc-elf32/lib/arcem\libc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a
+END GROUP
+START GROUP
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/../../../../arc-elf32/lib/arcem\libc.a
+LOAD c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/../../../../arc-elf32/lib/arcem\libnosys.a
+END GROUP
+OUTPUT(obj_emsk_22/gnu_arcem7d/breath_gnu_arcem7d.elf elf32-littlearc)
+
+.debug_info     0x00000000     0xf534
+ .debug_info    0x00000000     0x109f obj_emsk_22/gnu_arcem7d/main.o
+ .debug_info    0x0000109f      0xcb3 obj_emsk_22/gnu_arcem7d/board.o
+ .debug_info    0x00001d52      0x3d6 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .debug_info    0x00002128      0x648 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_info    0x00002770      0x227 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .debug_info    0x00002997      0xee8 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .debug_info    0x0000387f      0x75e obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_info    0x00003fdd     0x102f obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_info    0x0000500c       0x7d obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .debug_info    0x00005089      0xf66 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_info    0x00005fef      0x796 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_info    0x00006785      0x367 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_info    0x00006aec      0x811 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .debug_info    0x000072fd       0x26 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .debug_info    0x00007323       0x26 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .debug_info    0x00007349      0x947 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .debug_info    0x00007c90     0x323f obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_info    0x0000aecf     0x129b obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_info    0x0000c16a      0xaa5 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .debug_info    0x0000cc0f      0x947 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_info    0x0000d556     0x1fde obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.debug_abbrev   0x00000000     0x3318
+ .debug_abbrev  0x00000000      0x32c obj_emsk_22/gnu_arcem7d/main.o
+ .debug_abbrev  0x0000032c      0x305 obj_emsk_22/gnu_arcem7d/board.o
+ .debug_abbrev  0x00000631      0x1e2 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .debug_abbrev  0x00000813      0x331 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_abbrev  0x00000b44       0xeb obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .debug_abbrev  0x00000c2f      0x2a9 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .debug_abbrev  0x00000ed8      0x271 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_abbrev  0x00001149      0x2ff obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_abbrev  0x00001448       0x42 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .debug_abbrev  0x0000148a      0x320 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_abbrev  0x000017aa      0x2a0 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_abbrev  0x00001a4a      0x186 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_abbrev  0x00001bd0      0x346 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .debug_abbrev  0x00001f16       0x14 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .debug_abbrev  0x00001f2a       0x14 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .debug_abbrev  0x00001f3e      0x1a7 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .debug_abbrev  0x000020e5      0x448 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_abbrev  0x0000252d      0x38b obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_abbrev  0x000028b8      0x28d obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .debug_abbrev  0x00002b45      0x316 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_abbrev  0x00002e5b      0x4bd obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.debug_loc      0x00000000     0x8690
+ .debug_loc     0x00000000      0x1ed obj_emsk_22/gnu_arcem7d/main.o
+ .debug_loc     0x000001ed       0x3a obj_emsk_22/gnu_arcem7d/board.o
+ .debug_loc     0x00000227       0x13 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .debug_loc     0x0000023a      0x14c obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_loc     0x00000386       0x84 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .debug_loc     0x0000040a      0x480 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .debug_loc     0x0000088a      0x182 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_loc     0x00000a0c      0x5d9 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_loc     0x00000fe5       0xc5 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_loc     0x000010aa      0xd33 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_loc     0x00001ddd      0x336 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_loc     0x00002113      0x2e2 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .debug_loc     0x000023f5     0x3063 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_loc     0x00005458     0x131b obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_loc     0x00006773      0x3b4 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .debug_loc     0x00006b27      0x4bc obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_loc     0x00006fe3     0x16ad obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.debug_aranges  0x00000000      0x2a8
+ .debug_aranges
+                0x00000000       0x28 obj_emsk_22/gnu_arcem7d/main.o
+ .debug_aranges
+                0x00000028       0x20 obj_emsk_22/gnu_arcem7d/board.o
+ .debug_aranges
+                0x00000048       0x20 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .debug_aranges
+                0x00000068       0x20 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_aranges
+                0x00000088       0x20 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .debug_aranges
+                0x000000a8       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .debug_aranges
+                0x000000c8       0x20 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_aranges
+                0x000000e8       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_aranges
+                0x00000108       0x20 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .debug_aranges
+                0x00000128       0x20 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_aranges
+                0x00000148       0x20 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_aranges
+                0x00000168       0x20 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_aranges
+                0x00000188       0x20 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .debug_aranges
+                0x000001a8       0x20 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .debug_aranges
+                0x000001c8       0x20 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .debug_aranges
+                0x000001e8       0x20 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .debug_aranges
+                0x00000208       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_aranges
+                0x00000228       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_aranges
+                0x00000248       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .debug_aranges
+                0x00000268       0x20 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_aranges
+                0x00000288       0x20 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.debug_ranges   0x00000000      0x880
+ .debug_ranges  0x00000000       0x50 obj_emsk_22/gnu_arcem7d/main.o
+ .debug_ranges  0x00000050       0x38 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_ranges  0x00000088       0x20 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_ranges  0x000000a8       0x70 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_ranges  0x00000118       0x18 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_ranges  0x00000130       0x18 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_ranges  0x00000148       0x18 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_ranges  0x00000160      0x390 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_ranges  0x000004f0      0x138 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_ranges  0x00000628       0xc0 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_ranges  0x000006e8      0x198 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.debug_line     0x00000000     0x31f5
+ .debug_line    0x00000000      0x2e1 obj_emsk_22/gnu_arcem7d/main.o
+ .debug_line    0x000002e1      0x246 obj_emsk_22/gnu_arcem7d/board.o
+ .debug_line    0x00000527      0x1d5 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .debug_line    0x000006fc      0x200 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_line    0x000008fc       0xe3 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .debug_line    0x000009df      0x251 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .debug_line    0x00000c30      0x1ac obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_line    0x00000ddc      0x285 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_line    0x00001061       0x5f obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .debug_line    0x000010c0      0x242 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_line    0x00001302      0x277 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_line    0x00001579      0x16b obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_line    0x000016e4      0x221 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .debug_line    0x00001905       0xa9 obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .debug_line    0x000019ae       0x88 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .debug_line    0x00001a36      0x164 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .debug_line    0x00001b9a      0x843 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_line    0x000023dd      0x357 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_line    0x00002734      0x21e obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .debug_line    0x00002952      0x34a obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_line    0x00002c9c      0x559 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.debug_str      0x00000000     0x2c08
+ .debug_str     0x00000000      0x91c obj_emsk_22/gnu_arcem7d/main.o
+                                0xa4d (size before relaxing)
+ .debug_str     0x0000091c       0x8b obj_emsk_22/gnu_arcem7d/board.o
+                                0x8a0 (size before relaxing)
+ .debug_str     0x000009a7       0x73 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+                                0x48f (size before relaxing)
+ .debug_str     0x00000a1a      0x152 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+                                0x57b (size before relaxing)
+ .debug_str     0x00000b6c       0x8c obj_emsk_22/gnu_arcem7d/emsk/mux.o
+                                0x267 (size before relaxing)
+ .debug_str     0x00000bf8      0x634 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+                                0xb91 (size before relaxing)
+ .debug_str     0x0000122c      0x106 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+                                0x575 (size before relaxing)
+ .debug_str     0x00001332      0x3e7 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+                                0x915 (size before relaxing)
+ .debug_str     0x00001719       0x2e obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+                                0x1d8 (size before relaxing)
+ .debug_str     0x00001747      0x114 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+                                0x9f2 (size before relaxing)
+ .debug_str     0x0000185b       0xa7 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+                                0x231 (size before relaxing)
+ .debug_str     0x00001902       0x21 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+                                0x236 (size before relaxing)
+ .debug_str     0x00001923      0x20d obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+                                0x47e (size before relaxing)
+ .debug_str     0x00001b30       0x1d obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+                                 0x58 (size before relaxing)
+ .debug_str     0x00001b4d        0xe obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+                                 0x58 (size before relaxing)
+ .debug_str     0x00001b5b       0x21 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+                                0x624 (size before relaxing)
+ .debug_str     0x00001b7c      0x643 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+                               0x1333 (size before relaxing)
+ .debug_str     0x000021bf      0x330 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+                                0x8cd (size before relaxing)
+ .debug_str     0x000024ef      0x243 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+                                0x7ac (size before relaxing)
+ .debug_str     0x00002732      0x1d9 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+                                0x46d (size before relaxing)
+ .debug_str     0x0000290b      0x2fd obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+                                0xce0 (size before relaxing)
+
+.comment        0x00000000       0x42
+ .comment       0x00000000       0x42 obj_emsk_22/gnu_arcem7d/main.o
+                                 0x43 (size before relaxing)
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/board.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .comment       0x00000042       0x43 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/main.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/board.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .note.GNU-stack
+                0x00000000        0x0 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+ .note.GNU-stack
+                0x00000000        0x0 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+
+.ARC.attributes
+                0x00000000       0x32
+ .ARC.attributes
+                0x00000000       0x26 obj_emsk_22/gnu_arcem7d/main.o
+ .ARC.attributes
+                0x00000026       0x23 obj_emsk_22/gnu_arcem7d/board.o
+ .ARC.attributes
+                0x00000049       0x23 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .ARC.attributes
+                0x0000006c       0x28 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .ARC.attributes
+                0x00000094       0x23 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .ARC.attributes
+                0x000000b7       0x23 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .ARC.attributes
+                0x000000da       0x23 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .ARC.attributes
+                0x000000fd       0x26 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .ARC.attributes
+                0x00000123       0x23 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .ARC.attributes
+                0x00000146       0x23 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .ARC.attributes
+                0x00000169       0x2d obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .ARC.attributes
+                0x00000196       0x26 obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .ARC.attributes
+                0x000001bc       0x26 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .ARC.attributes
+                0x000001e2       0x1f obj_emsk_22/gnu_arcem7d/arc/arc_startup.o
+ .ARC.attributes
+                0x00000201       0x22 obj_emsk_22/gnu_arcem7d/arc/arc_exc_asm.o
+ .ARC.attributes
+                0x00000223       0x23 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .ARC.attributes
+                0x00000246       0x26 obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .ARC.attributes
+                0x0000026c       0x28 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .ARC.attributes
+                0x00000294       0x23 obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .ARC.attributes
+                0x000002b7       0x26 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .ARC.attributes
+                0x000002dd       0x2e obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+ .ARC.attributes
+                0x0000030b       0x2a c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+ .ARC.attributes
+                0x00000335       0x2a c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+ .ARC.attributes
+                0x0000035f       0x2a c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .ARC.attributes
+                0x00000389       0x2a c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
+ .ARC.attributes
+                0x000003b3       0x1f c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivsi3.o)
+ .ARC.attributes
+                0x000003d2       0x1f c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divsi3.o)
+ .ARC.attributes
+                0x000003f1       0x1f c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_umodsi3.o)
+ .ARC.attributes
+                0x00000410       0x22 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divmod_tools.o)
+ .ARC.attributes
+                0x00000432       0x22 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clzsi2.o)
+ .ARC.attributes
+                0x00000454       0x25 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_clz.o)
+
+.debug_frame    0x00000000     0x19c4
+ .debug_frame   0x00000000       0xd8 obj_emsk_22/gnu_arcem7d/main.o
+ .debug_frame   0x000000d8       0x28 obj_emsk_22/gnu_arcem7d/board.o
+ .debug_frame   0x00000100       0x34 obj_emsk_22/gnu_arcem7d/emsk/emsk_init.o
+ .debug_frame   0x00000134       0xf8 obj_emsk_22/gnu_arcem7d/emsk/emsk_timer.o
+ .debug_frame   0x0000022c       0xa0 obj_emsk_22/gnu_arcem7d/emsk/mux.o
+ .debug_frame   0x000002cc      0x138 obj_emsk_22/gnu_arcem7d/emsk/dw_iic_obj.o
+ .debug_frame   0x00000404      0x130 obj_emsk_22/gnu_arcem7d/emsk/emsk_gpio.o
+ .debug_frame   0x00000534      0x1c4 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio_obj.o
+ .debug_frame   0x000006f8       0x20 obj_emsk_22/gnu_arcem7d/emsk/emsk_sdcard.o
+ .debug_frame   0x00000718       0xa8 obj_emsk_22/gnu_arcem7d/middleware/common/console_io.o
+ .debug_frame   0x000007c0      0x204 obj_emsk_22/gnu_arcem7d/middleware/common/xprintf.o
+ .debug_frame   0x000009c4       0x7c obj_emsk_22/gnu_arcem7d/arc/arc_timer.o
+ .debug_frame   0x00000a40      0x100 obj_emsk_22/gnu_arcem7d/arc/arc_exception.o
+ .debug_frame   0x00000b40       0x20 obj_emsk_22/gnu_arcem7d/library/clib/embarc_misc.o
+ .debug_frame   0x00000b60      0x2bc obj_emsk_22/gnu_arcem7d/emsk/dw_iic.o
+ .debug_frame   0x00000e1c       0xf8 obj_emsk_22/gnu_arcem7d/emsk/dw_gpio.o
+ .debug_frame   0x00000f14      0x10c obj_emsk_22/gnu_arcem7d/emsk/dw_uart_obj.o
+ .debug_frame   0x00001020       0xd0 obj_emsk_22/gnu_arcem7d/arc/arc_cache.o
+ .debug_frame   0x000010f0      0x1f0 obj_emsk_22/gnu_arcem7d/emsk/dw_uart.o
+ .debug_frame   0x000012e0       0x60 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_divdi3.o)
+ .debug_frame   0x00001340       0x5c c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000139c      0x2e8 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(fp-bit.o)
+ .debug_frame   0x00001684      0x340 c:/arc_gnu/bin/../lib/gcc/arc-elf32/7.1.1/arcem\libgcc.a(dp-bit.o)
