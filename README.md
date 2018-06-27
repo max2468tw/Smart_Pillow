@@ -6,9 +6,9 @@
 
   [SMART PILLOW 1080P](http://v.youku.com/v_show/id_XMzYxMzUxMTI5Ng.html?spm=a2h0j.11185381.listitem_page1.5~A)
 
-* 技術文件
+* [技術文件](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/2018_Synopsys_ARC_SMART_PILLOW.pdf)
 
-* 簡報
+* [簡報](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/2018_Synopsys-ARC_SMART_PILLOW.pdf)
 
 * 圖片
 ![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/1.jpg)
