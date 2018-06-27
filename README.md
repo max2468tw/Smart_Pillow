@@ -11,3 +11,8 @@
 * 簡報
 
 * 圖片
+![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/1.jpg)
+![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/2.jpg)
+![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/3.jpg)
+![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/4.jpg)
+![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/5.jpg)
