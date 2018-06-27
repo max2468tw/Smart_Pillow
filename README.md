@@ -11,4 +11,4 @@
 * 簡報
 
 * 圖片
-[](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/1.jpg)
+![](https://github.com/max2468tw/Smart_Pillow/blob/master/doc/1.jpg)
