@@ -1,0 +1,163 @@
+
+/* linker file for 'secret2' example: two special sections for protecting initialization and shared data;
+   note that MPU regions should be powers of 2 (for current MPU)
+ */
+
+MEMORY {
+	iccm:			ORIGIN = 0x0,	LENGTH = 128K
+	iccm_secureshield:	ORIGIN = 0x20000,	LENGTH = 32K
+	container_1:		ORIGIN = 0x28000,	LENGTH = 32K
+	dccm:			ORIGIN = 0x80000000,	LENGTH = 32K
+	dccm_secureshield:	ORIGIN = 0x80008000,	LENGTH = 32K
+	container_12:		ORIGIN = 0x80010000,	LENGTH = 32K
+}
+
+SECTIONS {
+	GROUP: {
+		.secret_const_data ALIGN(4): {
+			*(.secret_const_data)
+		}
+	} > container_1
+
+	GROUP: {
+		.container_12_shared ALIGN(4): {
+			*(.container_12_shared)
+		}
+	} > container_12
+
+
+	GROUP : {
+		.init_bootstrap:{
+			*(.init_vector)
+			*(.init_bootstrap)
+		}
+		.vector ALIGN(1024): {
+			_f_vector = .;
+			*(.vector)
+			_e_vector = .;
+		}
+	} > iccm
+
+	GROUP : {
+
+		.text ALIGN(4): {
+			_f_text = .;
+			*(TYPE text)
+			_e_text = .;
+		}
+
+		.rodata  ALIGN(4): {
+			_f_rodata = .;
+
+			_fctors = .;
+			*(.ctors*)
+			_ectors = .;
+			_fdtors = .;
+			*(.dtors*)
+			_edtors = .;
+			_feh_frame = .;
+			*(.eh_frame*)
+			_eeh_frame = .;
+
+			*(TYPE lit)
+
+			_e_rodata = .;
+		}
+
+	} > iccm
+
+	GROUP: {
+		.secureshield.text : {
+			/* secureshield code and rodata */
+			. = ALIGN(4);
+			__secureshield_main_start = .;
+			"*libembarc.a(*libsecureshield.a*)"(TYPE text)
+			"*libembarc.a(*libsecureshield.a*)"(TYPE lit)
+			*(.secureshield.main)
+			__secureshield_main_end = .;
+		}
+
+		.secureshield.cfg : {
+			__secureshield_secure_start = .;
+			/* secureshield secure shields configuration tables */
+			. = ALIGN(32);
+			__secureshield_cfgtbl_start = .;
+			KEEP(*(.keep.secureshield.cfgtbl))
+			. = ALIGN(32);
+			__secureshield_cfgtbl_end = .;
+
+			/* pointers to secureshield secure shields configuration tables */
+			/* note: no further alignment here, we need to have the exact list of pointers */
+			 __secureshield_cfgtbl_ptr_start = .;
+			KEEP(*(.keep.secureshield.cfgtbl_ptr_first))
+			KEEP(*(.keep.secureshield.cfgtbl_ptr))
+			 __secureshield_cfgtbl_ptr_end = .;
+
+			. = ALIGN(32);
+			__secureshield_secure_end = .;
+		}
+	} > iccm_secureshield
+
+	GROUP : {
+		.data ALIGN(8): {
+			_f_data = .;
+			_f_sdata = .;
+			*(.sdata)
+			_e_sdata = .;
+			*(TYPE data)
+		}
+		.tls ALIGN(8): {
+			*(.tls*)
+			_e_data = .;
+		}
+	} > dccm
+
+	GROUP (NOLOAD) : {
+		.bss ALIGN(8): {
+			_f_bss = .;
+			*(TYPE bss)
+			_e_bss = .;
+		}
+		.stack ALIGN(4) SIZE(DEFINED _STACKSIZE?_STACKSIZE:2048): {}
+		.heap? ALIGN(4) SIZE(DEFINED _HEAPSIZE?_HEAPSIZE:0): {}
+	} > dccm
+
+	GROUP : {
+		.secureshield.data ALIGN(4) : {
+			/* secureshield code and data */
+			. = ALIGN(4);
+			"*libembarc.a(*libsecureshield.a*)"(TYPE data)
+		}
+	} > dccm_secureshield
+
+	GROUP (NOLOAD) : {
+		.secureshield.bss : {
+			. = ALIGN(4);
+			__secureshield_bss_start = .;
+			/* protected secureshield main bss */
+			__secureshield_bss_main_start = .;
+			"*libembarc.a(*libsecureshield.a*)"(TYPE bss)
+			KEEP(*(.keep.secureshield.bss.main))
+			__secureshield_bss_main_end = .;
+		}
+		.secureshield.bss.containers : {
+			. = ALIGN(2048);
+			/* protected containers bss */
+			__secureshield_bss_containers_start = .;
+			KEEP(*(.keep.secureshield.bss.containers))
+			. = ALIGN(2048);
+			__secureshield_bss_containers_end = .;
+
+			__secureshield_bss_end = .;
+		}
+	} > dccm_secureshield
+
+	_f_stack = ADDR(.stack);
+	_e_stack = ADDR(.stack) + SIZEOF(.stack);
+	_f_heap = ADDR(.heap);
+	_e_heap = ADDR(.heap) + SIZEOF(.heap);
+
+	_load_addr_text = LOADADDR(.text);
+	_load_addr_rodata = LOADADDR(.rodata);
+	_load_addr_data = LOADADDR(.data);
+}

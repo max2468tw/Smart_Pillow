@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1572237783">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1572237783" moduleId="org.eclipse.cdt.core.settings" name="arcem6">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" description="ARC EM6 Configuration" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1572237783" name="arcem6" parent="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug">
+					<folderInfo id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1572237783." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug.1518186599" name="GNU Toolchain for ARC EM" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level.2042344771" name="Debug level" superClass="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug.589546950" isAbstract="false" name="All Platform" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug"/>
+							<builder buildPath="${workspace_loc:/freertos_kernel/example/freertos/kernel}" cleanBuildTarget="BOARD=emsk BD_VER=11 CUR_CORE=arcem6 TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_kernel clean" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug.1840405665" incrementalBuildTarget="BOARD=emsk BD_VER=11 CUR_CORE=arcem6 TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_kernel all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="ARC GNU Make builder for Linux hosts" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug.420501660" name="ARC ELF32 GCC Assembler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths.1349156369" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/example/freertos/kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board/emsk/configs/11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def.311605714" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x41"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem6"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=10"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-2"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=11"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=8192"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=8192"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input.1466071146" superClass="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug.448240261" name="ARC ELF32 GCC C Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths.79614265" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/example/freertos/kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board/emsk/configs/11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def.1347816001" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x41"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem6"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=10"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-2"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=11"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=8192"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=8192"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level.1856088319" name="Optimization level" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input.1213319901" superClass="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug.1443248443" name="ARC ELF32 GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug.1864971900" name="ARC ELF32 GCC C Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug.116146273" name="ARC ELF32 GCC C++ Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base.668982224" name="ARC ELF32 GCC Archiver" superClass="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug.2095919826" name="ARC ELF32 GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug.207593566" name="ARC ELF32 GNU Create Listing" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base.615400078" name="ARC ELF32 GNU Print Size" superClass="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1775506508">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1775506508" moduleId="org.eclipse.cdt.core.settings" name="arcem4">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" description="ARC EM4 Configuration" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1775506508" name="arcem4" parent="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug">
+					<folderInfo id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1775506508." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug.1518186599" name="GNU Toolchain for ARC EM" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level.2042344771" name="Debug level" superClass="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug.589546950" isAbstract="false" name="All Platform" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug"/>
+							<builder buildPath="${workspace_loc:/freertos_kernel/example/freertos/kernel}" cleanBuildTarget="BOARD=emsk BD_VER=11 CUR_CORE=arcem4 TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_kernel clean" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug.1840405665" incrementalBuildTarget="BOARD=emsk BD_VER=11 CUR_CORE=arcem4 TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_kernel all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="ARC GNU Make builder for Linux hosts" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug.420501660" name="ARC ELF32 GCC Assembler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths.1349156369" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/example/freertos/kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board/emsk/configs/11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def.311605714" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x41"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem4"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=9"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-2"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=11"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=35000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=8192"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=8192"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input.1466071146" superClass="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug.448240261" name="ARC ELF32 GCC C Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths.79614265" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/example/freertos/kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board/emsk/configs/11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def.1347816001" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x41"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem4"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=9"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-2"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=11"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=35000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=8192"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=8192"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level.1856088319" name="Optimization level" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input.1213319901" superClass="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug.1443248443" name="ARC ELF32 GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug.1864971900" name="ARC ELF32 GCC C Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug.116146273" name="ARC ELF32 GCC C++ Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base.668982224" name="ARC ELF32 GCC Archiver" superClass="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug.2095919826" name="ARC ELF32 GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug.207593566" name="ARC ELF32 GNU Create Listing" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base.615400078" name="ARC ELF32 GNU Print Size" superClass="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1529794803">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1529794803" moduleId="org.eclipse.cdt.core.settings" name="arcem6gp">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arc.gnu.buildArtefactType.application" description="ARC EM6 GP Configuration" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1529794803" name="arcem6gp" parent="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug">
+					<folderInfo id="org.eclipse.cdt.cross.arc.gnu.linux.elf.debug.1529794803." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug.1518186599" name="GNU Toolchain for ARC EM" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level.2042344771" name="Debug level" superClass="org.eclipse.cdt.cross.arc.gnu.linux.option.debugging.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.debugging.level.max" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug.589546950" isAbstract="false" name="All Platform" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.platform.debug"/>
+							<builder buildPath="${workspace_loc:/freertos_kernel/example/freertos/kernel}" cleanBuildTarget="BOARD=emsk BD_VER=11 CUR_CORE=arcem6gp TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_kernel clean" id="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug.1840405665" incrementalBuildTarget="BOARD=emsk BD_VER=11 CUR_CORE=arcem6gp TOOLCHAIN=gnu OUT_DIR_ROOT=${ProjDirPath} APPL=freertos_kernel all" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="ARC GNU Make builder for Linux hosts" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.builder.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug.420501660" name="ARC ELF32 GCC Assembler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.assembler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths.1349156369" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/example/freertos/kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board/emsk/configs/11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def.311605714" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.assembler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x41"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem6gp"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=10"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-2"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=11"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=8192"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=8192"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input.1466071146" superClass="org.eclipse.cdt.cross.arc.gnu.linux.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug.448240261" name="ARC ELF32 GCC C Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths.79614265" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/example/freertos/kernel}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/board/emsk/configs/11}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/gpio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/iic}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/designware/uart}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/device_hal/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/microchip/mrf24g}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/device/rtthread/rw009}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/inc/arc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/library/clib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/ringbuffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/middleware/common/xprintf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/freertos/portable/Synopsys/ARC_EM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/freertos_kernel/os/hal/inc}&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def.1347816001" name="Defined symbols (-D)" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAVE_LIBGLOSS_"/>
+									<listOptionValue builtIn="false" value="PLATFORM_EMBARC"/>
+									<listOptionValue builtIn="false" value="CPU_ARCEM"/>
+									<listOptionValue builtIn="false" value="EMBARC_USE_BOARD_MAIN"/>
+									<listOptionValue builtIn="false" value="BOARD_WIFI_SEL=0"/>
+									<listOptionValue builtIn="false" value="_ARCVER=0x41"/>
+									<listOptionValue builtIn="false" value="CURRENT_CORE=arcem6gp"/>
+									<listOptionValue builtIn="false" value="NUM_EXC_INT=10"/>
+									<listOptionValue builtIn="false" value="INT_PRI_MIN=-2"/>
+									<listOptionValue builtIn="false" value="ARC_FEATURE_CODE_DENSITY"/>
+									<listOptionValue builtIn="false" value="BOARD_SPI_FREQ=800000"/>
+									<listOptionValue builtIn="false" value="BOARD_EMSK"/>
+									<listOptionValue builtIn="false" value="HW_VERSION=11"/>
+									<listOptionValue builtIn="false" value="BOARD_CPU_FREQ=30000000"/>
+									<listOptionValue builtIn="false" value="BOARD_DEV_FREQ=50000000"/>
+									<listOptionValue builtIn="false" value="MID_COMMON"/>
+									<listOptionValue builtIn="false" value="LIB_CLIB"/>
+									<listOptionValue builtIn="false" value="OS_FREERTOS"/>
+									<listOptionValue builtIn="false" value="ENABLE_OS"/>
+									<listOptionValue builtIn="false" value="FREERTOS_HEAP_SEL=2"/>
+									<listOptionValue builtIn="false" value="configNUM_THREAD_LOCAL_STORAGE_POINTERS=1"/>
+									<listOptionValue builtIn="false" value="configUSE_RECURSIVE_MUTEXES=1"/>
+									<listOptionValue builtIn="false" value="INCLUDE_uxTaskGetStackHighWaterMark=1"/>
+									<listOptionValue builtIn="false" value="configGENERATE_RUN_TIME_STATS=1"/>
+									<listOptionValue builtIn="false" value="_HEAPSIZE=8192"/>
+									<listOptionValue builtIn="false" value="_STACKSIZE=8192"/>
+									<listOptionValue builtIn="false" value="__GNU__"/>
+									<listOptionValue builtIn="false" value="TOOLCHAIN=ARC_GNU"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level.1856088319" name="Optimization level" superClass="org.eclipse.cdt.cross.arc.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arc.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<inputType id="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input.1213319901" superClass="org.eclipse.cdt.cross.arc.gnu.linux.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug.1443248443" name="ARC ELF32 GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.compiler.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug.1864971900" name="ARC ELF32 GCC C Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.c.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug.116146273" name="ARC ELF32 GCC C++ Linker" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.cpp.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base.668982224" name="ARC ELF32 GCC Archiver" superClass="org.eclipse.cdt.cross.arc.gnu.linux.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug.2095919826" name="ARC ELF32 GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createflash.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug.207593566" name="ARC ELF32 GNU Create Listing" superClass="org.eclipse.cdt.cross.arc.gnu.linux.elf.createlisting.debug"/>
+							<tool id="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base.615400078" name="ARC ELF32 GNU Print Size" superClass="org.eclipse.cdt.cross.arc.gnu.linux.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="freertos_kernel.org.eclipse.cdt.cross.arc.gnu.linux.elf.1234567890" name="ARC Cross ELF32 Target Application" projectType="org.eclipse.cdt.cross.arc.gnu.linux.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="arcem4">
+			<resource resourceType="PROJECT" workspacePath="/freertos_kernel"/>
+		</configuration>
+		<configuration configurationName="arcem6gp">
+			<resource resourceType="PROJECT" workspacePath="/freertos_kernel"/>
+		</configuration>
+		<configuration configurationName="arcem6">
+			<resource resourceType="PROJECT" workspacePath="/freertos_kernel"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
