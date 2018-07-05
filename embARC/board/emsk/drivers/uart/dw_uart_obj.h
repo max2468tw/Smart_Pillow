@@ -58,6 +58,7 @@
  */
 #define DW_UART_0_ID	0	/*!< uart 0 id macro */
 #define DW_UART_1_ID	1	/*!< uart 1 id macro */
+#define DW_UART_2_ID	2   //New
 /** @} end of name */
 
 /**
@@ -66,6 +67,7 @@
  */
 #define USE_DW_UART_0	1     	/*!< enable use designware uart 0 */
 #define USE_DW_UART_1	1     	/*!< enable use designware uart 1 */
+#define USE_DW_UART_2	1       //new
 /** @} end of name */
 
 /**

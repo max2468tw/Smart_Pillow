@@ -137,7 +137,7 @@
 #define PM5_UR_SPI_M1		((1 << BIT0) << PM5_OFFSET)	/*!< Pmod5[4:1] are connected to DW SPI Master signals using CS1_N */
 
 #define PM5_LR_GPIO_A		((0 << BIT2) << PM5_OFFSET)	/*!< Pmod5[10:7] are connected to DW GPIO Port A[27:24] */
-#define PM5_LR_SPI_M2		((1 << BIT2) << PM5_OFFSET)	/*!< Pmod5[10:7] are connected to DW SPI Master signals using CS2_N */
+#define PM5_LR_UART_2		((1 << BIT2) << PM5_OFFSET)	/*!< Pmod5[10:7] are connected to DW SPI Master signals using CS2_N */
 /** @} end of name */
 
 

@@ -89,7 +89,7 @@ static void emsk_mux_init(void)
 				| PM2_I2C_HRI			\
 				| PM3_GPIO_AC			\
 				| PM4_I2C_GPIO_D		\
-				| PM5_UR_SPI_M1 | PM5_LR_GPIO_A	\
+				| PM5_UR_SPI_M1 | PM5_LR_UART_2	\
 				| PM6_UR_SPI_M0 | PM6_LR_GPIO_A );
 
 	/**
